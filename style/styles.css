@@ -16,26 +16,32 @@ body {
 		margin: 0px;
 		padding: 80px;
 		border: 8px solid #f37d4d;
-		font-family: Helvetica, G-apple-system, BlinkMacSystemFont, sans-serif;
+		font-family: GalanoGrotesqueAlt-Regular, G-apple-system, BlinkMacSystemFont, sans-serif;
 		font-size: 1rem;
     line-height: 2;
 		position: relative;
-    height: 100%
+
 }
 
 a {
-    color: #2391d3;
-    text-decoration: none;
+    color: #f37d4d;
     transition: color .08s
-}
-
-a:hover, a:focus {
-    color: #17618d
 }
 
 h1, h2, h3, h4 {
     line-height: 1.2;
     text-rendering: optimizeLegibility
+}
+
+h1 {
+		font-family: GalanoGrotesqueAlt-Bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+h2 {
+		font-family: GalanoGrotesqueAlt-Bold;
+    font-size: 1.2rem;
 }
 
 
@@ -46,37 +52,57 @@ h4 {
 
 h3 {
   	font-family: GalanoGrotesqueAlt-Bold;
-    font-size: 1.2rem;
+    font-size: 3rem;
+    color: #D1D6D9;
 }
 
 .content {
-    max-width: 480px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    max-width:640px;
+    margin-top: 40px;
 }
 
 .header {
-    max-width: 480px;
-    margin-bottom: 40px;
+    max-width: 640px;
 }
 
 .hand {
-  position: fixed;
-      left: 100%;
-      margin-left: -128px;
-      margin-top: -36px;
+    position: fixed;
+    left: 100%;
+    margin-left: -104px;
+    margin-top: -16px;
+}
+
+.column {
+    min-width: 33%;
+    margin-right: 40px;
+
+}
+
+.column-c {
+    text-align: center;
 }
 
 .flex {
-        /* basic styling */
-        max-width: 1024px;
-
-        /* flexbox setup */
-        display: flex;
-        flex-direction: row;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
 }
 
 .flex > div {
-        flex: 1 1 auto;
-        width: 30px;
+    flex: 1 1 auto;
+
+}
+
+hr {
+    max-width: 1024px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D1D6D9;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.bruce {
+    margin-top: 40px;
 }
