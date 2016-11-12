@@ -5924,3 +5924,7 @@ hr {
   h2 {
     font-size: 38px;
     padding: 20px 0; } }
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0; } }
