@@ -86,3 +86,18 @@ hr {
 .bruce {
   margin-top: 40px;
 }
+
+// screen size optimizations
+
+@media (max-width: $screen-sm-max) {
+  .container-fluid {
+    padding: 40px;
+  }
+  .bottle {
+    max-width: 160px;
+  }
+  h2 {
+    font-size: 38px;
+    padding: 20px 0;
+  }
+}
