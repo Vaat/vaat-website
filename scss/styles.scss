@@ -1,5 +1,5 @@
 // Override bootstrap variables before importing bootstrap, that's how !default works
-$font-family-sans-serif: GalanoGrotesqueAlt-Regular, G-apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-sans-serif: 'GalanoGrotesqueAlt-Regular', G-apple-system, BlinkMacSystemFont, sans-serif;
 $font-size-base: 16px;
 $font-size-h1: 48px;
 $font-size-h2: 48px;
@@ -53,7 +53,7 @@ a {
 
 h1, h2, h3, h4 {
   line-height: 1.2;
-  font-family: GalanoGrotesqueAlt-Black;
+  font-family: 'GalanoGrotesqueAlt-Black';
   text-rendering: optimizeLegibility
 }
 
