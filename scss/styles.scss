@@ -1,0 +1,88 @@
+// Override bootstrap variables before importing bootstrap, that's how !default works
+$font-family-sans-serif: GalanoGrotesqueAlt-Regular, G-apple-system, BlinkMacSystemFont, sans-serif;
+$font-size-base: 16px;
+$font-size-h1: 48px;
+$font-size-h2: 48px;
+$font-size-h3: 18px;
+$font-size-h4: 13px;
+
+// Custom variables
+$colorPirange: #f37d4d;
+$colorLightgray: #D1D6D9;
+$colorText: #34383b;
+
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "fonts";
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: $colorText;
+  border: 8px solid $colorPirange;
+  line-height: 2;
+}
+
+.container-fluid {
+  padding: 80px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-row {
+  padding-bottom: 50px;
+}
+
+.bottle {
+  max-width: 240px;
+  margin: auto;
+  display: block;
+}
+
+.beer-icon-wrapper {
+  padding-top: 20px;
+}
+
+a {
+  color: $colorPirange;
+  transition: color .08s
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+  font-family: GalanoGrotesqueAlt-Bold;
+  text-rendering: optimizeLegibility
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: $colorLightgray;
+  padding: 30px 0;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+h4 {
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $colorLightgray;
+  margin: 1em 0;
+  padding: 0 0 20px 0;
+}
+
+.bruce {
+  margin-top: 40px;
+}
