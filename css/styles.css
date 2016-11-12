@@ -5926,6 +5926,8 @@ hr {
     padding: 20px 0; } }
 
 @media (max-width: 768px) {
+  body {
+    border-width: 4px; }
   .container-fluid {
     padding: 20px; }
   .bottle {
