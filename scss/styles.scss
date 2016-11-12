@@ -101,3 +101,15 @@ hr {
     padding: 20px 0;
   }
 }
+
+@media (max-width: $screen-sm-min) {
+  .container-fluid {
+    padding: 20px;
+  }
+  .bottle {
+    max-width: 120px;
+  }
+  h1, h2 {
+    font-size: 28px;
+  }
+}
