@@ -5883,6 +5883,9 @@ body {
 .beer-icon-wrapper {
   padding-top: 20px; }
 
+.vision {
+  color: #8D989F; }
+
 a {
   color: #f37d4d;
   transition: color .08s; }

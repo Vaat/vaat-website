@@ -46,6 +46,10 @@ body {
   padding-top: 20px;
 }
 
+.vision {
+  color: #8D989F;
+}
+
 a {
   color: $colorPirange;
   transition: color .08s
@@ -88,7 +92,8 @@ hr {
 }
 
 // screen size optimizations
-
+// -------------------------
+// tablets and such
 @media (max-width: $screen-sm-max) {
   .container-fluid {
     padding: 40px;
@@ -102,6 +107,7 @@ hr {
   }
 }
 
+// phones and such
 @media (max-width: $screen-sm-min) {
   body {
     border-width: 4px;
