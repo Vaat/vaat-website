@@ -38,9 +38,7 @@ body {
 
 .bottle {
   width: 100%;
-  max-width: 240px;
-  display: block;
-  margin: auto;
+  max-width: 220px;
 }
 
 .beer-icon-wrapper {
@@ -128,6 +126,10 @@ hr {
     padding: 20px;
   }
   .bottle {
+    margin-top: 16px;
+  }
+  .beer-icon {
+    max-width: 40px;
   }
   h1, h2 {
     font-size: 28px;
