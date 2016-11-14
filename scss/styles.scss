@@ -36,14 +36,9 @@ body {
   padding-bottom: 50px;
 }
 
-.beer-wrapper {
-  overflow: hidden;
-}
-
 .bottle {
   max-width: 240px;
   margin: auto;
-  display: block;
 }
 
 .beer-icon-wrapper {
@@ -102,15 +97,19 @@ hr {
 // screen size optimizations
 // -------------------------
 // tablets and such
+@media (max-width: $screen-md-max) {
+  .bottle {
+    max-width: 180px;
+  }
+}
+
+
 @media (max-width: $screen-sm-max) {
   .container-fluid {
     padding: 40px;
   }
   .bottle {
     max-width: 160px;
-    float: left;
-    margin-right: 20px;
-    padding: 10px 0 20px 0;
   }
   h2 {
     font-size: 38px;

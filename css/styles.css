@@ -5875,13 +5875,9 @@ body {
 .top-row {
   padding-bottom: 50px; }
 
-.beer-wrapper {
-  overflow: hidden; }
-
 .bottle {
   max-width: 240px;
-  margin: auto;
-  display: block; }
+  margin: auto; }
 
 .beer-icon-wrapper {
   padding: 5px 0 10px 0; }
@@ -5925,14 +5921,15 @@ hr {
 .bruce {
   margin-top: 40px; }
 
+@media (max-width: 1199px) {
+  .bottle {
+    max-width: 180px; } }
+
 @media (max-width: 991px) {
   .container-fluid {
     padding: 40px; }
   .bottle {
-    max-width: 160px;
-    float: left;
-    margin-right: 20px;
-    padding: 10px 0 20px 0; }
+    max-width: 160px; }
   h2 {
     font-size: 38px;
     padding: 20px 0; } }
