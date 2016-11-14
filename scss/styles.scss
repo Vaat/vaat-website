@@ -37,7 +37,9 @@ body {
 }
 
 .bottle {
+  width: 100%;
   max-width: 240px;
+  display: block;
   margin: auto;
 }
 
@@ -109,7 +111,7 @@ hr {
     padding: 40px;
   }
   .bottle {
-    max-width: 160px;
+    margin-top: 8px;
   }
   h2 {
     font-size: 38px;
@@ -126,7 +128,6 @@ hr {
     padding: 20px;
   }
   .bottle {
-    max-width: 120px;
   }
   h1, h2 {
     font-size: 28px;

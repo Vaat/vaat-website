@@ -5876,7 +5876,9 @@ body {
   padding-bottom: 50px; }
 
 .bottle {
+  width: 100%;
   max-width: 240px;
+  display: block;
   margin: auto; }
 
 .beer-icon-wrapper {
@@ -5929,7 +5931,7 @@ hr {
   .container-fluid {
     padding: 40px; }
   .bottle {
-    max-width: 160px; }
+    margin-top: 8px; }
   h2 {
     font-size: 38px;
     padding: 20px 0; } }
@@ -5939,7 +5941,5 @@ hr {
     border-width: 4px; }
   .container-fluid {
     padding: 20px; }
-  .bottle {
-    max-width: 120px; }
   h1, h2 {
     font-size: 28px; } }
