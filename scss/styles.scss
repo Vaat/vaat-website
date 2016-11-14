@@ -36,6 +36,10 @@ body {
   padding-bottom: 50px;
 }
 
+.beer-wrapper {
+  overflow: hidden;
+}
+
 .bottle {
   max-width: 240px;
   margin: auto;
@@ -104,6 +108,9 @@ hr {
   }
   .bottle {
     max-width: 160px;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 20px;
   }
   h2 {
     font-size: 38px;
