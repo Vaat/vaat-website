@@ -5892,6 +5892,10 @@ a {
   color: #E37462;
   transition: color .08s; }
 
+a:hover {
+  color: #E37462;
+  text-decoration: line-through; }
+
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-family: 'GalanoGrotesqueAlt-Black';

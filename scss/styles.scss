@@ -58,13 +58,16 @@ a {
   transition: color .08s
 }
 
+a:hover {
+  color: $colorPirange;
+  text-decoration: line-through;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-family: 'GalanoGrotesqueAlt-Black';
   text-rendering: optimizeLegibility
 }
-
-
 
 h2 {
   color: $colorLightgray;
