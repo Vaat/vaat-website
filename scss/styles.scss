@@ -39,6 +39,8 @@ body {
 .bottle {
   width: 100%;
   max-width: 220px;
+  display: block;
+  margin: auto;
 }
 
 .beer-icon-wrapper {
@@ -60,7 +62,7 @@ a {
 
 a:hover {
   color: $colorPirange;
-  text-decoration: line-through;
+  text-decoration: underline;;
 }
 
 h1, h2, h3, h4 {

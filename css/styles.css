@@ -5877,7 +5877,9 @@ body {
 
 .bottle {
   width: 100%;
-  max-width: 220px; }
+  max-width: 220px;
+  display: block;
+  margin: auto; }
 
 .beer-icon-wrapper {
   padding: 5px 0 10px 0; }
@@ -5894,7 +5896,7 @@ a {
 
 a:hover {
   color: #E37462;
-  text-decoration: line-through; }
+  text-decoration: underline; }
 
 h1, h2, h3, h4 {
   line-height: 1.2;
