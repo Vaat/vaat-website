@@ -5863,7 +5863,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   color: #34383b;
-  border: 8px solid #f37d4d;
+  border: 8px solid #E37462;
   line-height: 2; }
 
 .container-fluid {
@@ -5889,16 +5889,13 @@ body {
   color: #8D989F; }
 
 a {
-  color: #f37d4d;
+  color: #E37462;
   transition: color .08s; }
 
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-family: 'GalanoGrotesqueAlt-Black';
   text-rendering: optimizeLegibility; }
-
-h1 {
-  padding-bottom: 50px; }
 
 h2 {
   color: #D1D6D9;
