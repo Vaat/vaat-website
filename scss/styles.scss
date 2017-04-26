@@ -38,7 +38,7 @@ body {
 
 .bottle {
   width: 100%;
-  max-width: 220px;
+  max-width: 190px;
   display: block;
   margin: auto;
 }
@@ -96,6 +96,11 @@ hr {
 
 .faces {
   margin-top: 50px;
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 // screen size optimizations
@@ -138,4 +143,22 @@ hr {
   h1, h2 {
     font-size: 28px;
   }
+}
+
+#lightgallery {
+  a, a:hover, a:active, a:focus {
+    text-decoration: none;
+  }
+  img {
+    padding: 4px 4px 7px 4px;
+  }
+}
+
+.lg-backdrop {
+  background-color: white !important;
+}
+
+.lg-toolbar, .lg-prev, .lg-next, .lg-close {
+  background-color: transparent !important;
+  color: #CCCCCC !important;
 }

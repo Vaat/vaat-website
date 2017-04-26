@@ -12,7 +12,19 @@
     <meta property="og:url" content="http://vaat.ee/">
     <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
     <title>Vaat</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery({
+                counter: false,
+                download: false,
+                mode: 'lg-fade'
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -264,6 +276,26 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    <h2>Our pilot brewery</h2>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="lightgallery">
+                        <?php
+                        $files = glob('gallery/thumbnails/*.jpg');
+                        foreach ($files as $filename) :
+                        ?>
+                        <a href="<?= str_replace(array("_tn", "thumbnails/"), array("", "full/"), $filename) ?>">
+                            <img src="<?= $filename ?>" width="120px" height="120px" />
+                        </a>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
                     <h2>Contact us</h2>
                     <hr/>
                 </div>
@@ -292,7 +324,7 @@
             </div>
             <div class="row faces">
                 <div class="col-lg-12">
-                    <img src="images/faces.png" alt="faces" width="473px"/>
+                    <img src="images/faces.png" alt="faces"/>
                 </div>
             </div>
         </div>
@@ -304,5 +336,4 @@
     </div>
 </div>
 </body>
-
 </html>
