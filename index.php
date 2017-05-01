@@ -164,7 +164,7 @@
                             <h3>Forest Dubbel</h3>
                             <h4>Belgian Ale with Estonian Cowberries<br/>ABV 7.5%</h4>
                             <div class="beer-icon-wrapper">
-                                <img class="beer-icon" src="images/fd-ico.svg" alt="Forest Dubbelfd-ico.svg icon" height="64px"/>
+                                <img class="beer-icon" src="images/fd-ico.svg" alt="Forest Dubbel icon" height="64px"/>
                             </div>
                             <p class="beer-description">
                                 A salute to the Estonian autumn. This beer blends the malt and yeast forward qualities of
@@ -252,6 +252,7 @@
                     <h3>The Netherlands</h3>
                     <p>
                         New Beer Frontier (Importer)<br/>
+                        Bierboetiek De Zythotheek, Valkenburg<br/>faces.png
                         Burg Bieren, Ermelo<br/>
                         De Bierboutique, Weert<br/>
                         De Bierkoning, Amsterdam<br/>
