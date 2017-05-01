@@ -325,7 +325,7 @@
             </div>
             <div class="row faces">
                 <div class="col-lg-12">
-                    <img src="images/faces.png" alt="faces"/>
+                    <img src="images/faces.png" alt="faces" />
                 </div>
             </div>
         </div>
