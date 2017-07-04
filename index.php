@@ -194,6 +194,7 @@
                         Koht, Tallinn<br/>
                         Kuldmokk, Tallinn<br/>
                         Leib Resto ja Aed, Tallinn<br/>
+                        Meat Market Steak & Cocktail, Tartu<br/>
                         Moon Restoran, Tallinn<br/>
                         SECCO Shop, Tallinn<br/>
                         SIP Shop, Tallinn<br/>
