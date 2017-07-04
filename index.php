@@ -202,15 +202,13 @@
                         Umami Resto, Tallinn<br/>
                         Pudel Bar, Tallinn<br/>
                         Põrgu, Tallinn<br/>
-                        Uba ja Humal, Tallinn<br/>
+                        Uba ja Humal, Tallinn, Haapsalu & Kuressaare<br/>
                         Väike Roosa Õllepood, Tallinn<br/>
                         Veinibaar Shvips, Tallinn<br/>
-                        Wirre, Pärnu<br/>
                     </p>
                     <h3>Online shops</h3>
                     <p>
                         <a href="https://www.saveur-biere.com" target="_blank">Saveur Bière</a>, whole Europe<br/>
-                        <a href="https://www.virbum.com" target="_blank">Virbum</a>, EST<br/>
                         <a href="https://www.beerworld.ch/?s=vaat" target="_blank">Drinks of the World</a>, SUI<br/>
                         <a href="http://www.drink-shop.ch/" target="_blank">Drink Shop</a>, SUI<br/>
                     </p>
@@ -238,21 +236,22 @@
                     <p>
                         Herr Rizzi (Importer)<br/>
                         Bierzerria, Bern<br />
-                        Erzbierschof, Liebefeld, Bern & Zürich<br/>
                         Drinks of the World, Zürich, Basel, Bern, Oerlikon, Winterthur & Genève<br/>
                         Kaiser Franz, Zürich<br/>
                         Kolonial, Bern<br/>
-                        Leichtsinn, Bern<br/>
                         Marta Cafe.Musik.Bar, Bern<br/>
+                        Migrolino Mittelstrasse, Bern<br/>
                         Schichtwechsel, Liebefeld, Bern<br/>
                         Sindi Markt, Zürich<br/>
+                        TacTac Cycling, Bern<br/>
+                        Zoobar, Bern<br/>
                     </p>
                 </div>
                 <div class="col-sm-4">
                     <h3>The Netherlands</h3>
                     <p>
                         New Beer Frontier (Importer)<br/>
-                        Bierboetiek De Zythotheek, Valkenburg<br/>faces.png
+                        Bierboetiek De Zythotheek, Valkenburg<br/>
                         Burg Bieren, Ermelo<br/>
                         De Bierboutique, Weert<br/>
                         De Bierkoning, Amsterdam<br/>
@@ -272,6 +271,10 @@
                         Taka, Riga<br/>
                         The Armoury Bar, Riga<br/>
                         Walters & Grapa, Riga<br/>
+                    </p>
+                    <h3>Lithuania</h3>
+                    <p>
+                        Masters of Cheese, Vilnius<br/>
                     </p>
                 </div>
             </div>
