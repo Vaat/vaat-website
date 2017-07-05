@@ -209,7 +209,8 @@
                     </p>
                     <h3>Online shops</h3>
                     <p>
-                        <a href="https://www.saveur-biere.com" target="_blank">Saveur Bière</a>, whole Europe<br/>
+                        <a href="https://www.saveur-biere.com" target="_blank">Saveur Bière</a>, FR, BE, NL, IT & ES<br/>
+                        <a href="https://beerdome.nl" target="_blank">Beerdome.nl</a>, NL<br/>
                         <a href="https://www.beerworld.ch/?s=vaat" target="_blank">Drinks of the World</a>, SUI<br/>
                         <a href="http://www.drink-shop.ch/" target="_blank">Drink Shop</a>, SUI<br/>
                     </p>
@@ -255,9 +256,13 @@
                         Bierboetiek De Zythotheek, Valkenburg<br/>
                         Burg Bieren, Ermelo<br/>
                         De Bierboutique, Weert<br/>
+                        De Bierbrigadier, Eindhoven<br/>
                         De Bierkoning, Amsterdam<br/>
                         De Bierverteller, Utrecht<br/>
                         De Drie Dorstige Herten, Utrecht<br/>
+                        De Ridder, Wijn, Bier en Lekkernijen, Barendrecht<br/>
+                        Dorst Craft Beer Shop, Den Haag<br/>
+                        Drie Meter Bier, Utrecht<br/>
                         Edrinks M van Bergen, Eindhoven<br/>
                         Melgers, Haarlem<br/>
                         Slijterij van Pernis, Arnhem<br/>
