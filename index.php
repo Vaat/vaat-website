@@ -273,7 +273,9 @@
                     <h3>Latvia</h3>
                     <p>
                         Beerfox/Callous Alus, Riga (Importer)<br/>
-                        Mazā Kaņepe, Riga<br/>
+                        Alus Pasaules, Riga<br/>
+                        Beerfox Shop and Bar, Riga<br/>
+                        Easy Beer, Riga<br/>
                         Taka, Riga<br/>
                         The Armoury Bar, Riga<br/>
                         Walters & Grapa, Riga<br/>
