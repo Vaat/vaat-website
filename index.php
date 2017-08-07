@@ -245,6 +245,7 @@
                         Marta Cafe.Musik.Bar, Bern<br/>
                         Migrolino Mittelstrasse, Bern<br/>
                         Möckli's Getränkeinsel, Zürich<br/>
+                        O'BLOC, Ostermundigen<br/>
                         Schichtwechsel, Liebefeld, Bern<br/>
                         Sindi Markt, Zürich<br/>
                         TacTac Cycling, Bern<br/>
