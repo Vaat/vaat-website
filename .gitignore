@@ -2,6 +2,6 @@
 .idea
 /web/node_modules
 .gitignore
-public/css/
-public/fonts/
-public/js/
+web/public/css/
+web/public/fonts/
+web/public/js/
