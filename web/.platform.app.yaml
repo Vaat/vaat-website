@@ -17,8 +17,6 @@ build:
     flavor: none
 
 dependencies:
-    ruby:
-      compass: "1.0.3"
     nodejs:
       gulp: "3.9.1"
       yarn: "0.27.5"
