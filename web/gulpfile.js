@@ -29,11 +29,6 @@ gulp.task('lightgallery', function () {
         .pipe(gulp.dest('public/js/'));
 });
 
-gulp.task('lg-thumbnail', function () {
-    return gulp.src('node_modules/lightgallery/modules/lg-thumbnail.js')
-        .pipe(gulp.dest('public/js/'));
-});
-
 gulp.task('lightgallery-css', function () {
     return gulp.src('node_modules/lightgallery/dist/css/lightgallery.css')
         .pipe(gulp.dest('public/css/'));
