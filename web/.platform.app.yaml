@@ -7,14 +7,28 @@ name: web
 # The runtime the application uses.
 type: "php:7.0"
 
-# Configuration of the build of the application.
-build:
-    flavor: none
-
 timezone: Europe/Zurich
 
 # The size of the persistent disk of the application (in MB).
 disk: 256
+
+# Configuration of the build of the application.
+build:
+    flavor: none
+
+dependencies:
+    ruby:
+      compass: "1.0.3"
+    nodejs:
+      gulp: "3.9.1"
+      yarn: "0.27.5"
+
+hooks:
+    build: |
+        set -e
+        cd
+        yarn install
+        gulp
 
 # The configuration of app when it is exposed to the web.
 web:
@@ -24,7 +38,7 @@ web:
             index:
               - "index.php"
             # The number of seconds whitelisted (static) content should be cached.
-            expires: 600
+            expires: 6000
             scripts: true
             allow: true
             rules:
