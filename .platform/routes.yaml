@@ -1,7 +1,15 @@
-"https://{default}/":
+"https://vaat.ee/":
     type: upstream
     upstream: "web:http"
 
-"https://www.{default}/":
+"https://www.vaat.ee/":
     type: redirect
-    to: "https://{default}/"
+    to: "https://vaat.ee/"
+
+"https://vaat.ch/":
+    type: upstream
+    upstream: "web:http"
+
+"https://www.vaat.ch/":
+    type: redirect
+    to: "https://vaat.ch/"
