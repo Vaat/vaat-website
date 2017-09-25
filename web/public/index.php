@@ -258,6 +258,7 @@
                         New Beer Frontier (Importer)<br/>
                         Bierboetiek De Zythotheek, Valkenburg<br/>
                         Burg Bieren, Ermelo<br/>
+                        Café Piet Huisman, Nijmegen<br/>
                         De Bierboutique, Weert<br/>
                         De Bierbrigadier, Eindhoven<br/>
                         De Bierkoning, Amsterdam<br/>
@@ -281,6 +282,7 @@
                         Easy Beer, Riga<br/>
                         Taka, Riga<br/>
                         The Armoury Bar, Riga<br/>
+                        Valmiermuižas alus vēstniecība, Rīgā<br/>
                         Walters & Grapa, Riga<br/>
                     </p>
                     <h3>Lithuania</h3>
