@@ -238,16 +238,14 @@
                     <h3>Switzerland</h3>
                     <p>
                         Herr Rizzi (Importer)<br/>
-                        Bierzerria, Bern<br />
+                        Du Nord, Bern<br />
                         Drinks of the World, Zürich, Basel, Bern, Oerlikon, Winterthur & Genève<br/>
                         Kaiser Franz, Zürich<br/>
                         Kolonial, Bern<br/>
                         Marta Cafe.Musik.Bar, Bern<br/>
                         Migrolino Mittelstrasse, Bern<br/>
-                        Möckli's Getränkeinsel, Zürich<br/>
                         O'BLOC, Ostermundigen<br/>
                         Schichtwechsel, Liebefeld, Bern<br/>
-                        Sindi Markt, Zürich<br/>
                         TacTac Cycling, Bern<br/>
                         Zoobar, Bern<br/>
                     </p>
