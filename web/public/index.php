@@ -260,6 +260,7 @@
                         De Bierboutique, Weert<br/>
                         De Bierbrigadier, Eindhoven<br/>
                         De Bierkoning, Amsterdam<br/>
+                        De Biertonne, Overijssel<br/>
                         De Bierverteller, Utrecht<br/>
                         De Drie Dorstige Herten, Utrecht<br/>
                         De Ridder, Wijn, Bier en Lekkernijen, Barendrecht<br/>
