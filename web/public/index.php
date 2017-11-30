@@ -48,10 +48,10 @@
                     </h1>
                     <p>
                         At Vaat we don't want to run after the market. We believe that if we follow our drive and our curiosity, we can create the market.
-                        At Vaat we think that beer styles can be like crutches, limiting our movement. At Vaat we try to be anti-mainstream even in an anti-mainstream environment.
-                        At Vaat we're not afraid of taking the hard way. Doing things right creates true satisfaction. Quality is not negotiable.
-                        At Vaat we try not to compare to others and ignore the haters. Instead we love those who appreciate what we do and want to include them in our dream.
-                        At Vaat we never want to stop improving. Our processes, our beers, ourselves. We believe that innovation is the only way to win.
+                        We think that beer styles can be like crutches, limiting our movement. We try to be anti-mainstream even in an anti-mainstream environment.
+                        At Vaat we're not afraid of taking the hard way. Doing things right creates true satisfaction. To us quality is not negotiable.
+                        We try not to compare to others and ignore the haters. Instead we love those who appreciate what we do and want to include them in our dream.
+                        We never want to stop improving. Our processes, our beers, ourselves. We believe that innovation is the only way to win.
                     </p>
                 </div>
                 <div class="col-lg-offset-4 col-md-offset-3"></div>
