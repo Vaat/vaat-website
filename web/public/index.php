@@ -44,10 +44,14 @@
             <div class="row">
                 <div class="col-lg-8 col-md-9">
                     <h1>
-                        We are Vaat<span class="vision">—a gypsy brewery aspiring to create the best beers in the world.</span>
+                        Do. Your.<br/>Own. Thing.
                     </h1>
                     <p>
-                        We're an international group of friends with different professional backgrounds and a common passion for great beer. We develop our recipes at our pilot brewery in Tallinn, Estonia. With great care for quality and detail we brew and improve each recipe until we're happy with the result. Our beer is produced at De Proefbrouwerij in Belgium and a growing number of other breweries. We value independent creativity, precision brewing and excellent drinkability.
+                        At Vaat we don't want to run after the market. We believe that if we follow our drive and our curiosity, we can create the market.
+                        At Vaat we think that beer styles can be like crutches, limiting our movement. At Vaat we try to be anti-mainstream even in an anti-mainstream environment.
+                        At Vaat we're not afraid of taking the hard way. Doing things right creates true satisfaction. Quality is not negotiable.
+                        At Vaat we try not to compare to others and ignore the haters. Instead we love those who appreciate what we do and want to include them in our dream.
+                        At Vaat we never want to stop improving. Our processes, our beers, ourselves. We believe that innovation is the only way to win.
                     </p>
                 </div>
                 <div class="col-lg-offset-4 col-md-offset-3"></div>
@@ -75,6 +79,9 @@
                                 like the story that got us locked up. It’s coffee, smoke and body salts behind iron bars, and
                                 it’s strong enough to get us out again.”
                             </p>
+                            <p class="availability">
+                                Available in all our markets.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -94,6 +101,9 @@
                                 summer beer. As it ages, the tropical notes make way for a growing complexity of wit spiciness, saison
                                 characteristics, and the elegant aromas of white wine.
                             </p>
+                            <p class="availability">
+                                Available in all our markets.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -112,6 +122,9 @@
                                 Some beer archeology, quite a bit of Vienna malt, Tettnanger and Citra dry hops. This Vienna Red, an almost
                                 extinct style, is our contribution to the world of Lager. This is not a generic loveless brew, this is Lager
                                 than Life.
+                            </p>
+                            <p class="availability">
+                                Available in all our markets.
                             </p>
                         </div>
                     </div>
@@ -134,6 +147,9 @@
                                 Belonging, Beloved, Beneficial, Benignant, Better, Better-than-before, Best, Bewitching,
                                 Beyond dreams, Big.
                             </p>
+                            <p class="availability">
+                                Soon again available in all our markets.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -152,6 +168,9 @@
                                 Pilsner malt and Kölsch yeast. Amarillo and Jarrylo. Crisp, aromatic, highly drinkable.
                                 Our take on the session IPA – the IPK.
                             </p>
+                            <p class="availability">
+                                Available in all our markets.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -169,6 +188,9 @@
                             <p class="beer-description">
                                 A salute to the Estonian autumn. This beer blends the malt and yeast forward qualities of
                                 Belgian ales with the sour, fruity and refreshing notes of hand-picked Estonian cowberries.
+                            </p>
+                            <p class="availability">
+                                Seasonal, currently not available.
                             </p>
                         </div>
                     </div>
@@ -294,6 +316,14 @@
                 <div class="col-md-12">
                     <h2>Our pilot brewery</h2>
                     <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        We develop all our recipes at our lab brewery in Tallinn, Estonia. With great care for quality and detail we brew and improve each recipe until we're happy with the result.
+                        Our lab is the heart of our company. No matter how much we grow, our lab will always stay the intimate place of creativity it is now.
+                    </p>
                 </div>
             </div>
             <div class="row">
