@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-10">
                     <h1>
                         Do. Your.<br/>Own. Thing.
                     </h1>
@@ -59,7 +59,7 @@
                         Do your own thing.
                     </p>
                 </div>
-                <div class="col-lg-offset-3"></div>
+                <div class="col-lg-offset-2"></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
