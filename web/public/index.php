@@ -42,20 +42,24 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-md-9">
+                <div class="col-lg-9">
                     <h1>
                         Do. Your.<br/>Own. Thing.
                     </h1>
+                    <h2>
+                        The Vaat manifesto
+                    </h2>
                     <p>
-                        The Vaat manifesto<br />
                         Don’t run after the market. Follow your drive and curiosity. Create the market.<br/>
                         Beer styles are like crutches. Learn to walk without them, they’re limiting your movement.<br/>
                         Be anti-mainstream even in an anti-mainstream environment. Spend your “fucks given” wisely.<br/>
                         Don’t be afraid of taking the hard way. Doing things right creates true satisfaction. Quality is not negotiable.<br/>
                         Never stop improving. Your process, your beers, yourself. Innovation is the only way to win.<br/>
-                        Don’t compare to others. Ignore the haters, love those who appreciate what you do. Include them in your dream.<br/>                 </p>
+                        Don’t compare to others. Ignore the haters, love those who appreciate what you do. Include them in your dream.<br/>
+                        Do your own thing.
+                    </p>
                 </div>
-                <div class="col-lg-offset-4 col-md-offset-3"></div>
+                <div class="col-lg-offset-3"></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -149,7 +153,7 @@
                                 Beyond dreams, Big.
                             </p>
                             <p class="availability">
-                                Soon again available in all our markets.
+                                Out of stock.
                             </p>
                         </div>
                     </div>
@@ -224,6 +228,7 @@
                         SIP Shop, Tallinn<br/>
                         St. Vitus, Tallinn<br/>
                         Stockmann, Tallinn<br/>
+                        Taptap, Tallinn<br/>
                         Umami Resto, Tallinn<br/>
                         Pudel Bar, Tallinn<br/>
                         Põrgu, Tallinn<br/>
