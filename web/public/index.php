@@ -47,8 +47,13 @@
                         Do. Your.<br/>Own. Thing.
                     </h1>
                     <p>
-                        At Vaat we're not afraid of taking the hard way. We believe that doing things right creates true satisfaction. To us quality is not negotiable. We try not to compare to others, to ignore the haters and to include those in our dream who appreciate what we do. We don't want to run after the market, but believe that if we follow our drive and curiosity, we can create the market. We think that beer styles can be like crutches, limiting our movement. We like to do anti-mainstream things even in an anti-mainstream environment. We never want to stop improving. Our processes, our beers, ourselves. We believe that innovation is the only way to win.
-                    </p>
+                        The Vaat manifesto<br />
+                        Don’t run after the market. Follow your drive and curiosity. Create the market.<br/>
+                        Beer styles are like crutches. Learn to walk without them, they’re limiting your movement.<br/>
+                        Be anti-mainstream even in an anti-mainstream environment. Spend your “fucks given” wisely.<br/>
+                        Don’t be afraid of taking the hard way. Doing things right creates true satisfaction. Quality is not negotiable.<br/>
+                        Never stop improving. Your process, your beers, yourself. Innovation is the only way to win.<br/>
+                        Don’t compare to others. Ignore the haters, love those who appreciate what you do. Include them in your dream.<br/>                 </p>
                 </div>
                 <div class="col-lg-offset-4 col-md-offset-3"></div>
             </div>
