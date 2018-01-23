@@ -7,7 +7,7 @@
     <meta name="description" content="Vaat brewery">
     <meta name="author" content="Vaat OÜ">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Vaat - Do. Your. Own. Thing.">
+    <meta property="og:title" content="Vaat - Do Your Own Thing.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://vaat.ee/">
     <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
