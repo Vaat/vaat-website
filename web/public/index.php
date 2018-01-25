@@ -143,7 +143,7 @@
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Blimey!</h3>
-                            <h4>New England Double IPA<br/>ABV 7.5%</h4>
+                            <h4>New England Double IPA<br/>ABV 8.0%</h4>
                             <div class="beer-icon-wrapper">
                                 <img class="beer-icon" src="images/be-ico.svg" alt="Blimey! icon" height="64px"/>
                             </div>
