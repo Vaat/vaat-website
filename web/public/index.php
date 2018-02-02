@@ -216,15 +216,16 @@
                         Drink Pub, Tallinn<br/>
                         De Tolly, Tartu<br/>
                         Gambrinus, Tartu, Pärnu & Viljandi<br/>
+                        Humalakoda, Tallinn<br/>
                         J. R. Schramm'i Keller, Tartu<br/>
                         Kaubamaja, Tallinn & Tartu<br/>
                         Koht, Tallinn<br/>
+                        Kolm Sibulat, Tallinn<br/>
                         Kuldmokk, Tallinn<br/>
                         Leib Resto ja Aed, Tallinn<br/>
                         Meat Market Steak & Cocktail, Tartu<br/>
                         Moon Restoran, Tallinn<br/>
                         NagaNaga, Tallinn<br/>
-                        SECCO Shop, Tallinn<br/>
                         SIP Shop, Tallinn<br/>
                         St. Vitus, Tallinn<br/>
                         Stockmann, Tallinn<br/>
