@@ -308,6 +308,7 @@
                         Alus Pasaules, Riga<br/>
                         Beerfox Shop and Bar, Riga<br/>
                         Easy Beer, Riga<br/>
+                        Red Sun Buffet, Liepaja<br/>
                         Taka, Riga<br/>
                         The Armoury Bar, Riga<br/>
                         Valmiermuižas alus vēstniecība, Rīgā<br/>
