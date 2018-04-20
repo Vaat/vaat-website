@@ -202,6 +202,34 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="bottle large-bottle" src="images/sob.png" alt="San of a Birch" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>San of a Birch</h3>
+                            <h4>Nordic Sake Beer<br/>ABV 7.0%</h4>
+                            <div class="beer-icon-wrapper">
+                                <img class="beer-icon" src="images/sob-ico.svg" alt="San of a Birch icon" height="64px"/>
+                            </div>
+                            <p class="beer-description">
+                                A prototype we can't wait to produce.
+                            </p>
+                            <p class="availability">
+                                Not released yet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+
+                </div>
+                <div class="col-md-4 beer-wrapper">
+
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12">
                     <h2>Where to find our beer</h2>
                     <hr/>

@@ -1,7 +1,6 @@
 .DS_Store
 .idea
 /web/node_modules
-.gitignore
 web/public/css/
 web/public/fonts/
 web/public/js/
