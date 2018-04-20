@@ -295,6 +295,7 @@
                     <h3>Switzerland</h3>
                     <p>
                         Herr Rizzi (Importer)<br/>
+                        Coop, over 200 supermarkets<br />
                         Du Nord, Bern<br />
                         Drinks of the World, Zürich, Basel, Bern, Oerlikon, Winterthur & Genève<br/>
                         Kaiser Franz, Zürich<br/>
