@@ -7,7 +7,7 @@
     <meta name="description" content="Vaat brewery">
     <meta name="author" content="Vaat OÜ">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Vaat - Do. Your. Own Thing.">
+    <meta property="og:title" content="Vaat - Do Your Own Thing.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://vaat.ee/">
     <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
@@ -143,7 +143,7 @@
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Blimey!</h3>
-                            <h4>New England Double IPA<br/>ABV 7.5%</h4>
+                            <h4>New England Double IPA<br/>ABV 8.0%</h4>
                             <div class="beer-icon-wrapper">
                                 <img class="beer-icon" src="images/be-ico.svg" alt="Blimey! icon" height="64px"/>
                             </div>
@@ -202,6 +202,34 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="bottle large-bottle" src="images/sob.png" alt="San of a Birch" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>San of a Birch</h3>
+                            <h4>Nordic Sake Beer<br/>ABV 7.0%</h4>
+                            <div class="beer-icon-wrapper">
+                                <img class="beer-icon" src="images/sob-ico.svg" alt="San of a Birch icon" height="64px"/>
+                            </div>
+                            <p class="beer-description">
+                                A prototype we can't wait to produce.
+                            </p>
+                            <p class="availability">
+                                Not released yet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+
+                </div>
+                <div class="col-md-4 beer-wrapper">
+
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12">
                     <h2>Where to find our beer</h2>
                     <hr/>
@@ -216,15 +244,17 @@
                         Drink Pub, Tallinn<br/>
                         De Tolly, Tartu<br/>
                         Gambrinus, Tartu, Pärnu & Viljandi<br/>
-                        J. R. Schramm'i Keller, Tartu<br/>
+                        Hell Hunt, Tallinn<br/>
+                        Humalakoda, Tallinn<br/>
                         Kaubamaja, Tallinn & Tartu<br/>
                         Koht, Tallinn<br/>
+                        Kolm Sibulat, Tallinn<br/>
                         Kuldmokk, Tallinn<br/>
                         Leib Resto ja Aed, Tallinn<br/>
+                        Mantel ja Korsten, Tallinn<br/>
                         Meat Market Steak & Cocktail, Tartu<br/>
                         Moon Restoran, Tallinn<br/>
                         NagaNaga, Tallinn<br/>
-                        SECCO Shop, Tallinn<br/>
                         SIP Shop, Tallinn<br/>
                         St. Vitus, Tallinn<br/>
                         Stockmann, Tallinn<br/>
@@ -266,6 +296,7 @@
                     <h3>Switzerland</h3>
                     <p>
                         Herr Rizzi (Importer)<br/>
+                        Coop, over 200 supermarkets<br />
                         Du Nord, Bern<br />
                         Drinks of the World, Zürich, Basel, Bern, Oerlikon, Winterthur & Genève<br/>
                         Kaiser Franz, Zürich<br/>
@@ -307,6 +338,7 @@
                         Alus Pasaules, Riga<br/>
                         Beerfox Shop and Bar, Riga<br/>
                         Easy Beer, Riga<br/>
+                        Red Sun Buffet, Liepaja<br/>
                         Taka, Riga<br/>
                         The Armoury Bar, Riga<br/>
                         Valmiermuižas alus vēstniecība, Rīgā<br/>
