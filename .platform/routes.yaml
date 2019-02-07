@@ -13,3 +13,13 @@
 "https://www.vaat.ch/":
     type: redirect
     to: "https://vaat.ch/"
+
+http://{default}/:
+    type: redirect
+    to: "https://{default}/"
+
+https://dashboard.vaat.ee/:
+    type: upstream
+    upstream: "dashboard:http"
+    cache:
+        enabled: false
