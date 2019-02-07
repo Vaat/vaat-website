@@ -7,5 +7,4 @@
 
 # Activate the `r-env` conda environment that was created in the build hook
 conda activate r-env
-R
-shiny::runApp('dashboard')
+start_dashboard.R
