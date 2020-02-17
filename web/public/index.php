@@ -18,7 +18,7 @@
     <script src="js/lightgallery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $("#lightgallery").lightGallery({
+            $('#lightgallery').lightGallery({
                 counter: false,
                 download: false,
                 mode: 'lg-fade'
@@ -129,7 +129,7 @@
                                 than Life.
                             </p>
                             <p class="availability">
-                                Available in all our markets.
+                                Out of stock.
                             </p>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                             <img class="bottle" src="images/ipk.png" alt="India Pale Kölsch" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
-                            <h3>India Pale Kölsch</h3>
+                            <h3>IPK</h3>
                             <h4>Session IPA<br/>ABV 4.6%</h4>
                             <div class="beer-icon-wrapper">
                                 <img class="beer-icon" src="images/ipk-ico.svg" alt="IPK icon" height="64px"/>
@@ -231,128 +231,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Where to find our beer</h2>
-                    <hr/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3>Estonia</h3>
-                    <p>
-                        Barlova, Tartu<br/>
-                        Brewdog Bar, Tallinn<br/>
-                        Drink Pub, Tallinn<br/>
-                        De Tolly, Tartu<br/>
-                        Gambrinus, Tartu, Pärnu & Viljandi<br/>
-                        Hell Hunt, Tallinn<br/>
-                        Humalakoda, Tallinn<br/>
-                        Kaubamaja, Tallinn & Tartu<br/>
-                        Koht, Tallinn<br/>
-                        Kolm Sibulat, Tallinn<br/>
-                        Kuldmokk, Tallinn<br/>
-                        Leib Resto ja Aed, Tallinn<br/>
-                        Mantel ja Korsten, Tallinn<br/>
-                        Meat Market Steak & Cocktail, Tartu<br/>
-                        Moon Restoran, Tallinn<br/>
-                        NagaNaga, Tallinn<br/>
-                        SIP Shop, Tallinn<br/>
-                        St. Vitus, Tallinn<br/>
-                        Stockmann, Tallinn<br/>
-                        Taptap, Tallinn<br/>
-                        Umami Resto, Tallinn<br/>
-                        Pudel Bar, Tallinn<br/>
-                        Põrgu, Tallinn<br/>
-                        Uba ja Humal, Tallinn, Haapsalu & Kuressaare<br/>
-                        Väike Roosa Õllepood, Tallinn<br/>
-                        Veinibaar Shvips, Tallinn<br/>
-                    </p>
-                    <h3>Online shops</h3>
-                    <p>
-                        <a href="https://www.saveur-biere.com" target="_blank">Saveur Bière</a>, FR, BE, NL, IT & ES<br/>
-                        <a href="https://beerdome.nl" target="_blank">Beerdome.nl</a>, NL<br/>
-                        <a href="https://www.beerworld.ch/?s=vaat" target="_blank">Drinks of the World</a>, SUI<br/>
-                        <a href="http://www.drink-shop.ch/" target="_blank">Drink Shop</a>, SUI<br/>
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Finland</h3>
-                    <p>
-                        One Pint Pub, Helsinki (Importer)<br/>
-                        Davisto, Espoo<br/>
-                        Harry's, Jyväskylä<br/>
-                        K-Citymarket Ruoholahti, Helsinki<br/>
-                        K-Supermarket Arabia, Helsinki<br/>
-                        K-Supermarket Kamppi, Helsinki<br/>
-                        K-Supermarket Länsiväylä, Jyväskylä<br/>
-                        Kievari Kahdet Kasvot, Tampere<br/>
-                        Konttori, Tampere<br/>
-                        Molotow, Helsinki<br/>
-                        Oljenkorsi, Helsinki<br/>
-                        Pien, Helsinki<br/>
-                        Ravintola Tehdas, Orimattila<br/>
-                        Ravintola Toveri, Helsinki<br/>
-                        Vihreä Haltiatar, Jyväskylä<br/>
-                    </p>
-                    <h3>Switzerland</h3>
-                    <p>
-                        Herr Rizzi (Importer)<br/>
-                        Coop, over 200 supermarkets<br />
-                        Du Nord, Bern<br />
-                        Drinks of the World, Zürich, Basel, Bern, Oerlikon, Winterthur & Genève<br/>
-                        Kaiser Franz, Zürich<br/>
-                        Kolonial, Bern<br/>
-                        Marta Cafe.Musik.Bar, Bern<br/>
-                        Migrolino Mittelstrasse, Bern<br/>
-                        O'BLOC, Ostermundigen<br/>
-                        Schichtwechsel, Liebefeld, Bern<br/>
-                        TacTac Cycling, Bern<br/>
-                        Zoobar, Bern<br/>
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>The Netherlands</h3>
-                    <p>
-                        New Beer Frontier (Importer)<br/>
-                        Bierboetiek De Zythotheek, Valkenburg<br/>
-                        Burg Bieren, Ermelo<br/>
-                        Café Piet Huisman, Nijmegen<br/>
-                        De Bierboutique, Weert<br/>
-                        De Bierbrigadier, Eindhoven<br/>
-                        De Bierkoning, Amsterdam<br/>
-                        De Biertonne, Overijssel<br/>
-                        De Bierverteller, Utrecht<br/>
-                        De Drie Dorstige Herten, Utrecht<br/>
-                        De Ridder, Wijn, Bier en Lekkernijen, Barendrecht<br/>
-                        Dorst Craft Beer Shop, Den Haag<br/>
-                        Drie Meter Bier, Utrecht<br/>
-                        Edrinks M van Bergen, Eindhoven<br/>
-                        Melgers, Haarlem<br/>
-                        Slijterij van Pernis, Arnhem<br/>
-                        Slijterij Zuilen, Utrecht<br/>
-                        Slijterij ‘t Pijpke, Helmond<br/>
-                        Soffree on fifty-four, Oud-Beijerland<br/>
-                    </p>
-                    <h3>Latvia</h3>
-                    <p>
-                        Beerfox/Callous Alus, Riga (Importer)<br/>
-                        Alus Pasaules, Riga<br/>
-                        Beerfox Shop and Bar, Riga<br/>
-                        Easy Beer, Riga<br/>
-                        Red Sun Buffet, Liepaja<br/>
-                        Taka, Riga<br/>
-                        The Armoury Bar, Riga<br/>
-                        Valmiermuižas alus vēstniecība, Rīgā<br/>
-                        Walters & Grapa, Riga<br/>
-                    </p>
-                    <h3>Lithuania</h3>
-                    <p>
-                        Masters of Cheese, Vilnius<br/>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Our pilot brewery</h2>
+                    <h2>Our pico brewery</h2>
                     <hr/>
                 </div>
             </div>
