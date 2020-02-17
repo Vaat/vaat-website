@@ -1,44 +1,39 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+const gulp = require('gulp');
+const { series } = require('gulp');
+const sass = require('gulp-sass');
 
-gulp.task('default', [
-    'sass',
-    'jquery',
-    'lightgallery',
-    'lightgallery-css',
-    'lightgallery-fonts'
-    ], function () {
+exports.default = series(
+    sassTask,
+    jqueryTask,
+    lightgalleryTask,
+    lightgalleryCssTask,
+    lightgalleryFontsTask
+);
 
-});
-
-gulp.task('sass', function () {
+function sassTask() {
     return gulp.src('scss/styles.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('public/css/'));
-});
+}
 
-gulp.task('jquery', function () {
+function jqueryTask() {
     return gulp.src('node_modules/jquery/dist/jquery.min.js')
         .pipe(gulp.dest('public/js/'));
-});
+}
 
-gulp.task('lightgallery', function () {
+function lightgalleryTask() {
     return gulp.src('node_modules/lightgallery/dist/js/lightgallery.min.js')
         .pipe(gulp.dest('public/js/'));
-});
+}
 
-gulp.task('lightgallery-css', function () {
+function lightgalleryCssTask() {
     return gulp.src('node_modules/lightgallery/dist/css/lightgallery.css')
         .pipe(gulp.dest('public/css/'));
-});
+}
 
-gulp.task('lightgallery-fonts', function () {
+function lightgalleryFontsTask() {
     return gulp.src('node_modules/lightgallery/dist/fonts/**.*')
         .pipe(gulp.dest('public/fonts/'));
-});
-
-gulp.task('watch', function () {
-    gulp.watch('scss/styles.scss', ['sass']);
-});
+}

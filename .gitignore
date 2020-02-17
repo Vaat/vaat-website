@@ -5,3 +5,6 @@ web/public/css/
 web/public/fonts/
 web/public/js/
 yarn-error.log
+.Rproj.user
+/dashboard/dashboard.Rproj
+/dashboard/.Rproj.user/
