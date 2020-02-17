@@ -36,7 +36,7 @@ web:
             index:
               - "index.php"
             # The number of seconds whitelisted (static) content should be cached.
-            expires: 1
+            expires: 6000
             scripts: true
             allow: true
             rules:
