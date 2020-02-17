@@ -7,6 +7,8 @@
 "https://www.vaat.ee/":
     type: redirect
     to: "https://vaat.ee/"
+    cache:
+        enabled: false
 
 "https://vaat.ch/":
     type: upstream
@@ -17,10 +19,14 @@
 "https://www.vaat.ch/":
     type: redirect
     to: "https://vaat.ch/"
+    cache:
+        enabled: false
 
 http://{default}/:
     type: redirect
     to: "https://{default}/"
+    cache:
+        enabled: false
 
 https://dashboard.vaat.ee/:
     type: upstream
