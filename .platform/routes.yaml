@@ -1,6 +1,8 @@
 "https://vaat.ee/":
     type: upstream
     upstream: "web:http"
+    cache:
+        enabled: false
 
 "https://www.vaat.ee/":
     type: redirect
@@ -9,6 +11,8 @@
 "https://vaat.ch/":
     type: upstream
     upstream: "web:http"
+    cache:
+        enabled: false
 
 "https://www.vaat.ch/":
     type: redirect
