@@ -16,7 +16,6 @@
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16f8ddce67821eefb8462635f/11cb04d872eb439c8c2861e00.js");</script></head>
 
 <body>
-<a name="top"></a>
 <div class="container-fluid bg-light">
     <div class="row">
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
@@ -28,7 +27,7 @@
             </h1>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-            <img class="pull-right" src="images/hand.svg" alt="V sign"/></a>
+            <img class="pull-right" src="images/hand.svg" alt="V sign"/>
         </div>
     </div>
 </div>
