@@ -42,3 +42,13 @@ web:
             rules:
                 \.(css|js|gif|jpe?g|png|ttf|eot|woff2?|otf|html|ico|svg?)$:
                     allow: true
+        "/revolution":
+            "root": "public"
+            index:
+                - "revolution.php"
+            expires: 6000
+            scripts: true
+            allow: true
+            rules:
+                \.(css|js|gif|jpe?g|png|ttf|eot|woff2?|otf|html|ico|svg?)$:
+                    allow: true
