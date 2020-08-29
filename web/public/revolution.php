@@ -13,8 +13,7 @@
     <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
     <title>Vaat Revolution</title>
     <link rel="stylesheet" type="text/css" href="css/revolution.css" />
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16f8ddce67821eefb8462635f/264692e388b207a7791beac58.js");</script>
-</head>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16f8ddce67821eefb8462635f/11cb04d872eb439c8c2861e00.js");</script></head>
 
 <body>
 <a name="top"></a>
