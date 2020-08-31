@@ -1,8 +1,8 @@
 // Override bootstrap variables before importing bootstrap, that's how !default works
 $font-family-sans-serif: 'GalanoGrotesqueAlt-Regular', G-apple-system, BlinkMacSystemFont, sans-serif;
 $font-size-base: 16px;
-$font-size-h1: 48px;
-$font-size-h2: 48px;
+$font-size-h1: 42px;
+$font-size-h2: 42px;
 $font-size-h3: 18px;
 $font-size-h4: 13px;
 
@@ -19,24 +19,28 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     line-height: 2;
-    padding-top: 40px;
-    background-color: $colorPink;
-    background-image: url(../images/cells.svg);
-    background-repeat: no-repeat;
-    background-position: 123% -210px;
+    background-color: $colorBlue;
 }
 
 .bg-light {
+    background-color: $colorPink;
     color: $colorBlue;
 }
 
 .bg-dark {
-    background-color: $colorBlue;
     color: $colorPink;
 }
 
 .container-fluid {
     padding: 40px 80px;
+}
+
+.top-container {
+    padding-top: 80px;
+    background-image: url(../images/cells.svg);
+    background-repeat: no-repeat;
+    background-position: 116% -260px;
+    background-size: 50%;
 }
 
 .top-row {
@@ -56,7 +60,7 @@ body {
     position: relative;
     display: block;
     width: calc(186% + 1.3px);
-    height: 86px;
+    height: 65px;
     transform: rotateY(180deg);
 }
 
@@ -65,10 +69,21 @@ body {
 }
 
 .vision {
-    padding: 10px 10px 10px 0;
-    font-size: 22px;
+    padding: 15px 15px 10px 0;
+    font-size: 20px;
     line-height: 1.2;
     text-rendering: optimizeLegibility;
+}
+
+.text-important {
+    font-family: 'GalanoGrotesqueAlt-SemiBold';
+}
+
+.light-cells {
+    max-width: 200px;
+    height: auto;
+    object-fit: scale-down;
+    margin: 30px 50px 0 0;
 }
 
 h1, h2, h3, h4 {
@@ -77,17 +92,92 @@ h1, h2, h3, h4 {
     text-rendering: optimizeLegibility
 }
 
-h2 {
-    padding: 30px 0;
+.input {
+    display: table;
+    width: 100%;
 }
 
-h3 {
-    padding-bottom: 10px;
+.button {
+    height: 44px;
+    border: none;
 }
 
-h4 {
-    text-transform: uppercase;
+#mce-EMAIL {
+    width: 74%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+#mc-embedded-subscribe {
+    width: 24%;
+    height: 44px;
+    background: $colorPink;
+    font-family: inherit;
+    font-weight: bold;
+    color: $colorBlue;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#mc-embedded-subscribe:hover {
+    background: darken($colorPink, 10%);
+}
+
+#mce-responses {
+
+}
+
+div.response {
+    margin: 7px 12px 0 0 !important;
+    padding: 5px 10px !important;
     line-height: 1.5;
+    font-weight: normal !important;
+    border-radius: 5px;
+
+    a {
+        color: inherit !important;
+        text-decoration: underline;
+    }
+}
+
+#mce-error-response {
+    display: none;
+    color: $colorBlue;
+    background-color: lighten($colorBlue, 70%) !important;
+}
+
+div.mce_inline_error {
+    margin: 7px 12px 0 0 !important;
+    padding: 5px 10px !important;
+    color: darken($colorPink, 30%) !important;
+    background-color: lighten($colorBlue, 70%) !important;
+    font-weight: normal !important;
+    border-radius: 5px;
+}
+
+#mce-success-response {
+    display: none;
+    color: $colorBlue;
+    font-family: 'GalanoGrotesqueAlt-SemiBold';
+    background-color: lighten($colorBlue, 70%) !important;
+}
+
+label.error {
+
+}
+
+.clear {
+    clear:both;
+}
+
+input:focus {
+    outline: none;
 }
 
 // screen size optimizations
