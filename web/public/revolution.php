@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Vaat brewery">
+    <meta name="description" content="Join the next micro brewing revolution!">
     <meta name="author" content="Vaat OÜ">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Vaat - Revolution.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://vaat.ee/revolution">
-    <meta property="og:image" content="http://vaat.ee/images/cells-2.svg">
+    <meta property="og:image" content="http://vaat.ee/images/opengraph-header-cells.svg">
     <title>Vaat Revolution</title>
     <link rel="stylesheet" type="text/css" href="css/revolution-styles.css" />
 </head>
