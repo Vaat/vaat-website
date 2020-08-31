@@ -10,7 +10,7 @@
     <meta property="og:title" content="Vaat - Revolution.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://vaat.ee/revolution">
-    <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
+    <meta property="og:image" content="http://vaat.ee/images/cells-2.svg">
     <title>Vaat Revolution</title>
     <link rel="stylesheet" type="text/css" href="css/revolution-styles.css" />
 </head>
