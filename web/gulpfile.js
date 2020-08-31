@@ -13,7 +13,7 @@ exports.default = series(
 );
 
 function sassTask() {
-    return gulp.src(['scss/styles.scss', 'scss/revolution.scss'])
+    return gulp.src(['scss/styles.scss', 'scss/revolution-styles.scss'])
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('public/css/'));
 }
