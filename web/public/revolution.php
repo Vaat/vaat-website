@@ -17,14 +17,14 @@
     <meta property="og:url" content="https://vaat.ee/revolution/">
     <meta property="og:title" content="Vaat Brewery">
     <meta property="og:description" content="Join the next micro brewing revolution!">
-    <meta property="og:image" content="http://vaat.ee/images/opengraph-header-cells.svg">
+    <meta property="og:image" content="http://vaat.ee/images/opengraph-header-cells.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://vaat.ee/revolution/">
     <meta property="twitter:title" content="Vaat Brewery">
     <meta property="twitter:description" content="Join the next micro brewing revolution!">
-    <meta property="twitter:image" content="http://vaat.ee/images/opengraph-header-cells.svg">
+    <meta property="twitter:image" content="http://vaat.ee/images/opengraph-header-cells.png">
 
     <link rel="stylesheet" type="text/css" href="css/revolution-styles.css" />
 </head>
