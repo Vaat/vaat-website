@@ -129,10 +129,6 @@ h1, h2, h3, h4 {
     background: darken($colorPink, 10%);
 }
 
-#mce-responses {
-
-}
-
 div.response {
     margin: 7px 12px 0 0 !important;
     padding: 5px 10px !important;
@@ -168,10 +164,6 @@ div.mce_inline_error {
     background-color: lighten($colorBlue, 70%) !important;
 }
 
-label.error {
-
-}
-
 .clear {
     clear:both;
 }
@@ -191,9 +183,29 @@ input:focus {
     .container-fluid {
         padding: 40px;
     }
-    h2 {
-        font-size: 38px;
-        padding: 20px 0;
+
+    .input {
+        display: inline-grid;
+        width: 100%;
+    }
+
+    #mce-EMAIL {
+        width: 100%;
+        letter-spacing: normal;
+        text-indent: 5%;
+        border-radius: 5px 5px 0 0;
+        text-align: center;
+    }
+
+    #mc-embedded-subscribe {
+        width: 100%;
+        height: 44px;
+        letter-spacing: normal;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .top-row {
+        padding-bottom: unset;
     }
 }
 
@@ -202,7 +214,7 @@ input:focus {
     .container-fluid {
         padding: 20px;
     }
-    h1, h2 {
+    h1 {
         font-size: 28px;
     }
 }
