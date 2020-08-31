@@ -3,6 +3,11 @@
     upstream: "web:http"
     cache:
         enabled: false
+    tls:
+        strict_transport_security:
+            enabled: true
+            include_subdomains: true
+            preload: true
 
 "https://www.vaat.ee/":
     type: redirect
@@ -13,6 +18,11 @@
     upstream: "web:http"
     cache:
         enabled: false
+    tls:
+        strict_transport_security:
+            enabled: true
+            include_subdomains: true
+            preload: true
 
 "https://www.vaat.ch/":
     type: redirect
