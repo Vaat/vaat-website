@@ -4,14 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Join the next micro brewing revolution!">
     <meta name="author" content="Vaat OÜ">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Vaat - Revolution.">
+
+    <!-- Primary Meta Tags -->
+    <title>Vaat Brewery</title>
+    <meta name="title" content="Vaat Brewery">
+    <meta name="description" content="Join the next micro brewing revolution!">
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://vaat.ee/revolution">
+    <meta property="og:url" content="https://vaat.ee/revolution/">
+    <meta property="og:title" content="Vaat Brewery">
+    <meta property="og:description" content="Join the next micro brewing revolution!">
     <meta property="og:image" content="http://vaat.ee/images/opengraph-header-cells.svg">
-    <title>Vaat Revolution</title>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://vaat.ee/revolution/">
+    <meta property="twitter:title" content="Vaat Brewery">
+    <meta property="twitter:description" content="Join the next micro brewing revolution!">
+    <meta property="twitter:image" content="http://vaat.ee/images/opengraph-header-cells.svg">
+
     <link rel="stylesheet" type="text/css" href="css/revolution-styles.css" />
 </head>
 <body>
