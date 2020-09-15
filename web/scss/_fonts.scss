@@ -1,33 +1,104 @@
 /**
  * @license
- * MyFonts Webfont Build ID 3297662, 2016-10-19T09:10:21-0400
+ * MyFonts Webfont Build ID 3947987, 2020-09-15T12:07:00-0400
  *
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed ../webfonts(s).
+ * explicitly restricted from using the Licensed Webfonts(s).
  *
  * You may obtain a valid license at the URLs below.
  *
  * Webfont: GalanoGrotesqueAlt-Black by Rene Bieder
- * URL: http://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-black/
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-black/
+ *
+ * Webfont: GalanoGrotesqueAlt-Bold by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-bold/
+ *
+ * Webfont: GalanoGrotesqueAlt-Italic by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-italic/
+ *
+ * Webfont: GalanoGrotesqueAlt-MediumItalic by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-medium-italic/
+ *
+ * Webfont: GalanoGrotesqueAlt-LightItalic by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-light-italic/
+ *
+ * Webfont: GalanoGrotesqueAlt-SemiBoldItalic by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-semi-bold-italic/
+ *
+ * Webfont: GalanoGrotesqueAlt-Light by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-light/
+ *
+ * Webfont: GalanoGrotesqueAlt-ThinItalic by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-thin-italic/
+ *
+ * Webfont: GalanoGrotesqueAlt-Medium by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-medium/
  *
  * Webfont: GalanoGrotesqueAlt-Regular by Rene Bieder
- * URL: http://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-regular/
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-regular/
  *
  * Webfont: GalanoGrotesqueAlt-SemiBold by Rene Bieder
- * URL: http://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-semi-bold/
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-semi-bold/
+ *
+ * Webfont: GalanoGrotesqueAlt-Thin by Rene Bieder
+ * URL: https://www.myfonts.com/fonts/rene-bieder/galano-grotesque/alt-thin/
  *
  *
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3297662
- * Licensed pageviews: 10,000
- * ../webfonts copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ * Webfonts copyright: Copyright &amp;#x00A9; 2014 by Ren&amp;#x00E9; Bieder. All rights reserved.
  *
- * © 2016 MyFonts Inc
+ * © 2020 MyFonts Inc
 */
 
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/32517e");
 
-@font-face {font-family: 'GalanoGrotesqueAlt-Black';src: url('../webfonts/32517E_0_0.eot');src: url('../webfonts/32517E_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/32517E_0_0.woff2') format('woff2'),url('../webfonts/32517E_0_0.woff') format('woff'),url('../webfonts/32517E_0_0.ttf') format('truetype');}
-@font-face {font-family: 'GalanoGrotesqueAlt-Regular';src: url('../webfonts/32517E_1_0.eot');src: url('../webfonts/32517E_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/32517E_1_0.woff2') format('woff2'),url('../webfonts/32517E_1_0.woff') format('woff'),url('../webfonts/32517E_1_0.ttf') format('truetype');}
-@font-face {font-family: 'GalanoGrotesqueAlt-SemiBold';src: url('../webfonts/32517E_2_0.eot');src: url('../webfonts/32517E_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/32517E_2_0.woff2') format('woff2'),url('../webfonts/32517E_2_0.woff') format('woff'),url('../webfonts/32517E_2_0.ttf') format('truetype');}
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c3dd3");
+
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-LightItalic';
+    src: url('webFonts/GalanoGrotesqueAlt-LightItalic/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-LightItalic/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Italic';
+    src: url('webFonts/GalanoGrotesqueAlt-Italic/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Italic/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Bold';
+    src: url('webFonts/GalanoGrotesqueAlt-Bold/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Bold/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-MediumItalic';
+    src: url('webFonts/GalanoGrotesqueAlt-MediumItalic/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-MediumItalic/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Black';
+    src: url('webFonts/GalanoGrotesqueAlt-Black/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Black/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Thin';
+    src: url('webFonts/GalanoGrotesqueAlt-Thin/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Thin/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Regular';
+    src: url('webFonts/GalanoGrotesqueAlt-Regular/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Regular/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-SemiBold';
+    src: url('webFonts/GalanoGrotesqueAlt-SemiBold/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-SemiBold/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Medium';
+    src: url('webFonts/GalanoGrotesqueAlt-Medium/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Medium/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-ThinItalic';
+    src: url('webFonts/GalanoGrotesqueAlt-ThinItalic/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-ThinItalic/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-SemiBoldItalic';
+    src: url('webFonts/GalanoGrotesqueAlt-SemiBoldItalic/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-SemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+    font-family: 'GalanoGrotesqueAlt-Light';
+    src: url('webFonts/GalanoGrotesqueAlt-Light/font.woff2') format('woff2'), url('webFonts/GalanoGrotesqueAlt-Light/font.woff') format('woff');
+}

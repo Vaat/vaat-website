@@ -1,10 +1,13 @@
 // Override bootstrap variables before importing bootstrap, that's how !default works
 $font-family-sans-serif: 'GalanoGrotesqueAlt-Regular', G-apple-system, BlinkMacSystemFont, sans-serif;
-$font-size-base: 16px;
-$font-size-h1: 42px;
+$font-size-base: 18px;
+$font-size-h1: 48px;
 $font-size-h2: 42px;
 $font-size-h3: 18px;
 $font-size-h4: 13px;
+
+// Grid system
+$screen-lg-min: 1300px;
 
 // Custom variables
 $colorPink: #FCD9DC;
@@ -13,83 +16,54 @@ $colorBlue: #0E2247;
 @import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "fonts";
 
+html {
+    height: 100%;
+    background: linear-gradient(90deg, $colorPink 50%, $colorBlue 50%);
+}
+
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    line-height: 2;
-    background-color: $colorBlue;
+    height: 100%;
+    background: none;
+    background: url(../images/amoeba.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    padding: 88px 280px 0 280px;
+}
+
+.logo-text {
+    height: 72px;
+    width: 12px;
+    margin-bottom: 200px;
 }
 
 .bg-light {
-    background-color: $colorPink;
     color: $colorBlue;
 }
 
 .bg-dark {
     color: $colorPink;
+    font-family: GalanoGrotesqueAlt-Light;
 }
 
-.container-fluid {
-    padding: 40px 80px;
+.padding-right {
+    padding-right: 40px;
 }
 
-.top-container {
-    padding-top: 80px;
-    background-image: url(../images/cells.svg);
-    background-repeat: no-repeat;
-    background-position: 116% -260px;
-    background-size: 50%;
+.padding-left {
+    padding-left: 40px;
 }
 
-.top-row {
-    padding-bottom: 50px;
-}
-
-.custom-shape-divider-bottom-1598558841 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1598558841 svg {
-    position: relative;
-    display: block;
-    width: calc(186% + 1.3px);
-    height: 65px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1598558841 .shape-fill {
-    fill: #0E2247;
-}
-
-.vision {
-    padding: 15px 15px 10px 0;
-    font-size: 20px;
-    line-height: 1.2;
-    text-rendering: optimizeLegibility;
-}
-
-.text-important {
-    font-family: 'GalanoGrotesqueAlt-SemiBold';
-}
-
-.light-cells {
-    max-width: 200px;
-    height: auto;
-    object-fit: scale-down;
-    margin: 30px 50px 0 0;
+.emphasize {
+    font-family: 'GalanoGrotesqueAlt-Medium';
 }
 
 h1, h2, h3, h4 {
-    line-height: 1.2;
-    font-family: 'GalanoGrotesqueAlt-Black';
-    text-rendering: optimizeLegibility
+    line-height: 52px;
+    font-family: 'GalanoGrotesqueAlt-Bold';
+    margin: 0 0 30px 0;
 }
 
 .input {
@@ -98,26 +72,26 @@ h1, h2, h3, h4 {
 }
 
 .button {
-    height: 44px;
-    border: none;
+    height: 40px;
+    border: solid $colorPink 2px;
 }
 
 #mce-EMAIL {
-    width: 74%;
-    background: #FDFCFB;
-    font-family: inherit;
-    color: #737373;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.16);
+    font-family: GalanoGrotesqueAlt-Light;
+    font-size: 16px;
+    color: #FCDADD;
     letter-spacing: 1px;
     text-indent: 5%;
     border-radius: 5px 0 0 5px;
 }
 
 #mc-embedded-subscribe {
-    width: 24%;
-    height: 44px;
+    width: 30%;
+    height: 40px;
     background: $colorPink;
-    font-family: inherit;
-    font-weight: bold;
+    font-family: GalanoGrotesqueAlt-Regular;
     color: $colorBlue;
     letter-spacing: 1px;
     border-radius: 0 5px 5px 0;
@@ -126,15 +100,16 @@ h1, h2, h3, h4 {
 }
 
 #mc-embedded-subscribe:hover {
-    background: darken($colorPink, 10%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), #FCDADD;
 }
 
 div.response {
-    margin: 7px 12px 0 0 !important;
+    margin: 7px 7px 0 0 !important;
     padding: 5px 10px !important;
     line-height: 1.5;
     font-weight: normal !important;
     border-radius: 5px;
+    border-color: $colorPink;
 
     a {
         color: inherit !important;
@@ -145,23 +120,26 @@ div.response {
 #mce-error-response {
     display: none;
     color: $colorBlue;
-    background-color: lighten($colorBlue, 70%) !important;
+    background-color: $colorPink !important;
 }
 
 div.mce_inline_error {
-    margin: 7px 12px 0 0 !important;
+    margin: 7px 7px 0 0 !important;
     padding: 5px 10px !important;
-    color: darken($colorPink, 30%) !important;
-    background-color: lighten($colorBlue, 70%) !important;
+    color: $colorBlue !important;
+    background-color: $colorPink !important;
     font-weight: normal !important;
     border-radius: 5px;
 }
 
+input.mce_inline_error {
+    border-color: $colorPink !important;
+}
+
 #mce-success-response {
     display: none;
-    color: $colorBlue;
-    font-family: 'GalanoGrotesqueAlt-SemiBold';
-    background-color: lighten($colorBlue, 70%) !important;
+    color: $colorPink;
+    font-family: GalanoGrotesqueAlt-Medium;
 }
 
 .clear {
@@ -174,19 +152,77 @@ input:focus {
 
 // screen size optimizations
 // -------------------------
+
 // tablets and such
 @media (max-width: $screen-md-max) {
+    .container-fluid {
+        padding: 88px 120px 0 120px;
+    }
 
+    h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .logo-text {
+        margin-bottom: 130px;
+    }
+
+    #mc-embedded-subscribe {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: $screen-sm-max) {
+    html {
+        background: linear-gradient(180deg, $colorPink 50%, $colorBlue 50%);
+    }
+
     .container-fluid {
-        padding: 40px;
+        padding: 70px 0 0 0;
+    }
+
+    .bg-light {
+        background-color: $colorPink;
+        p {
+            padding-bottom: 10px !important;
+        }
+    }
+
+    .bg-dark {
+        background-color: $colorBlue;
+        p:first-child {
+            padding-top: 20px !important;
+        }
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 26px;
+        padding: 0 90px !important;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 90px !important;
+    }
+
+    .logo-text {
+        margin: 0 0 120px 90px;
+    }
+
+    .padding-right, .padding-left {
+        padding: 0;
     }
 
     .input {
         display: inline-grid;
         width: 100%;
+        padding: 0 90px;
     }
 
     #mce-EMAIL {
@@ -197,22 +233,18 @@ input:focus {
         text-align: center;
     }
 
-    #mc-embedded-subscribe {
+    #mc-embedded-subscribe, #mc-embedded-signup {
         width: 100%;
         height: 44px;
         letter-spacing: normal;
         border-radius: 0 0 5px 5px;
-    }
-
-    .top-row {
-        padding-bottom: unset;
     }
 }
 
 // phones and such
 @media (max-width: $screen-sm-min) {
     .container-fluid {
-        padding: 20px;
+
     }
     h1 {
         font-size: 28px;
