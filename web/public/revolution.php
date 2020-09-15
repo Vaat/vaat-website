@@ -32,7 +32,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
-            <img src="images/logo-blue.svg" class="logo-text" alt="VAAT" />
+            <div class="pull-left">
+                <img src="images/logo-blue.svg" class="logo-text" alt="VAAT" />
+            </div>
+            <div class="pull-right">
+                <img src="images/hand-blue.svg" class="logo-hand" alt="VAAT" />
+            </div>
+
         </div>
     </div>
     <div class="row">
@@ -45,6 +51,9 @@
                 and other interesting drinks where beer lovers as well as brewers from around the world meet to
                 witness the latest innovation in ecologically sustainable, high-quality micro brewing.
             </p>
+            <div class="pull-right hidden-sm">
+                <img src="images/hand-blue.svg" class="logo-hand" alt="VAAT" />
+            </div>
         </div>
         <div class="col-md-6 col-sm-12 bg-dark">
             <p class="padding-left">

@@ -39,6 +39,10 @@ body {
     margin-bottom: 200px;
 }
 
+.logo-hand {
+    margin: 80px 100px 0 0;
+}
+
 .bg-light {
     color: $colorBlue;
 }
@@ -213,6 +217,10 @@ input:focus {
 
     .logo-text {
         margin: 0 0 120px 90px;
+    }
+
+    .logo-hand {
+        margin: 0 90px 0 0;
     }
 
     .padding-right, .padding-left {
