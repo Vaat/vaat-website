@@ -26,7 +26,7 @@
     <meta property="twitter:description" content="Join the next micro brewing revolution!">
     <meta property="twitter:image" content="http://vaat.ee/images/opengraph-header-cells.png">
 
-    <link rel="stylesheet" type="text/css" href="css/revolution-styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/revolution.css" />
 </head>
 <body>
 <div class="container-fluid">
