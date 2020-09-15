@@ -46,7 +46,7 @@ web:
             "root": "public"
             index:
                 - "revolution.php"
-            expires: 6000
+            expires: 0
             scripts: true
             allow: true
             rules:
