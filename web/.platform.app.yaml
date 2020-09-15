@@ -36,7 +36,7 @@ web:
             index:
               - "index.php"
             # The number of seconds whitelisted (static) content should be cached.
-            expires: 0
+            expires: -1
             scripts: true
             allow: true
             rules:
@@ -46,7 +46,7 @@ web:
             "root": "public"
             index:
                 - "revolution.php"
-            expires: 0
+            expires: -1
             scripts: true
             allow: true
             rules:
