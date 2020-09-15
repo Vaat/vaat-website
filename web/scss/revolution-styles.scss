@@ -250,11 +250,57 @@ input:focus {
 }
 
 // phones and such
+$padding: 20px;
 @media (max-width: $screen-sm-min) {
-    .container-fluid {
 
+    body {
+        background-image: none;
     }
+
+    .container-fluid {
+        padding: 30px 0 0 0 !important;
+    }
+
+    .bg-light {
+        background-color: $colorPink;
+        p {
+            padding-bottom: $padding !important;
+        }
+    }
+
+    .bg-dark {
+        background-color: $colorBlue;
+        p:first-child {
+            padding-top: 20px !important;
+        }
+    }
+
     h1 {
-        font-size: 28px;
+        font-size: 20px;
+        line-height: 22px;
+        padding: 0 $padding !important;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 $padding !important;
+    }
+
+    .logo-text {
+        margin: 0 0 120px $padding;
+    }
+
+    .logo-hand {
+        margin: 0 $padding 0 0;
+    }
+
+    .padding-right, .padding-left {
+        padding: 0;
+    }
+
+    .input {
+        display: inline-grid;
+        width: 100%;
+        padding: 0 $padding;
     }
 }
