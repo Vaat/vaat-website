@@ -1,6 +1,6 @@
 "https://{default}/":
     type: upstream
-    upstream: "web:http"
+    upstream: "vaat:http"
     cache:
         enabled: false
     tls:
@@ -19,7 +19,7 @@ http://{default}/:
 
 "https://vaat.ch/":
     type: upstream
-    upstream: "web:http"
+    upstream: "vaat:http"
     cache:
         enabled: false
     tls:
