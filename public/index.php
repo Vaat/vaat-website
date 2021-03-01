@@ -12,6 +12,8 @@
     <meta property="og:url" content="http://vaat.ee/">
     <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
     <title>Vaat</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
     <script src="js/jquery.min.js"></script>
@@ -60,6 +62,41 @@
                     </p>
                 </div>
                 <div class="col-lg-offset-2"></div>
+            </div>
+            <div class="row background-pirange">
+                <div class="col-md-8">
+                    <h2>Building the future</h2>
+                    <p>
+                        We followed our own advice and are <strong>Doing. Our. Own. Thing.</strong> Vaat is currently
+                        building a brewery and a bar in the center of Tallinn.
+                    </p>
+                    <p>
+                        Our <strong>VISION</strong> is a place of great fresh beers, low-alcohol alternatives and other
+                        interesting beverages where beer lovers from around the world meet to witness the
+                        latest innovation in ecologically sustainable, high-quality micro brewing.
+                    </p>
+                    <p>
+                        In 2019 and 2020 we were able to secure the financial means to realise our dream.
+                    </p>
+                    <p>
+                        We are very grateful to our amazing community, our many helpers, our 188 investors, the
+                        state of Estonia, and the EU for their support. This is a truly ambitious project on
+                        a rather tight budget. Our excessively hard work is currently being rewarded with the luck of the brave.
+                        There is struggle, there is progress, there are setbacks, there's success.
+                    </p>
+                    <p>
+                        We absolutely can't wait to open our doors for you. Soon. Maybe this spring, maybe summer.
+                        Our vision will get us there, see you soon!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/pria-eu.png" width="350px">
+                    <p class="pria">
+                        The investments of our 188 shareholders have been supported by ARIB (PRIA) within the framework
+                        of the European Agricultural Fund for Rural Development (EAFRD). In 2019 we were awarded a grant
+                        of 175'000€ to aid the purchase of production equipment for the new brewery.
+                    </p>
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -231,15 +268,17 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Our pico brewery</h2>
+                    <h2>Where we grew up</h2>
                     <hr/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        We develop all our recipes at our lab brewery in Tallinn, Estonia. With great care for quality and detail we brew and improve each recipe until we're happy with the result.
-                        Our lab is the heart of our company. No matter how much we grow, our lab will always stay the intimate place of creativity it is now.
+                        In our nomadic period we developed all our recipes at our lab brewery in Tallinn, Estonia.
+                        With great care for quality and detail we brewed and improved each recipe until we were happy with the result.
+                        Most of the beers we created in that way were then produced in Belgium, at the renowned De Proefbrouwerij.
+                        We also brewed at a couple of Estonian breweries.
                     </p>
                 </div>
             </div>
