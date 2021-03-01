@@ -90,7 +90,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/pria-eu.png" width="350px">
+                    <img src="images/pria-eu.png" width="350px" alt="PRIA Logo and EAFRD Emblem">
                     <p class="pria">
                         The investments of our 188 shareholders have been supported by ARIB (PRIA) within the framework
                         of the European Agricultural Fund for Rural Development (EAFRD). In 2019 we were awarded a grant
@@ -290,7 +290,7 @@
                         foreach ($files as $filename) :
                         ?>
                         <a href="<?= str_replace(array("_tn", "thumbnails/"), array("", "full/"), $filename) ?>">
-                            <img src="<?= $filename ?>" width="120px" height="120px" />
+                            <img src="<?= $filename ?>" width="120px" height="120px" alt="picture of Vaat image gallery" />
                         </a>
                         <?php endforeach; ?>
                     </div>
