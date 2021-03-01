@@ -1,4 +1,4 @@
-"https://vaat.ee/":
+"https://{default}/":
     type: upstream
     upstream: "web:http"
     cache:
@@ -9,9 +9,13 @@
             include_subdomains: true
             preload: true
 
+http://{default}/:
+    type: redirect
+    to: "https://{default}/"
+
 "https://www.vaat.ee/":
     type: redirect
-    to: "https://vaat.ee/"
+    to: "https://{default}/"
 
 "https://vaat.ch/":
     type: upstream
@@ -27,13 +31,3 @@
 "https://www.vaat.ch/":
     type: redirect
     to: "https://vaat.ch/"
-
-http://{default}/:
-    type: redirect
-    to: "https://{default}/"
-
-https://dashboard.vaat.ee/:
-    type: upstream
-    upstream: "dashboard:http"
-    cache:
-        enabled: false

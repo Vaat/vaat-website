@@ -1,10 +1,7 @@
 .DS_Store
 .idea
-/web/node_modules
-web/public/css/
-web/public/fonts/
-web/public/js/
+node_modules/
+public/css/
+public/fonts/
+public/js/
 yarn-error.log
-.Rproj.user
-/dashboard/dashboard.Rproj
-/dashboard/.Rproj.user/
