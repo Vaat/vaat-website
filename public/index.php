@@ -90,7 +90,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/pria-eu.png" width="350px" alt="PRIA Logo and EAFRD Emblem">
+                    <img src="images/pria-eu.png" alt="PRIA Logo and EAFRD Emblem">
                     <p class="pria">
                         The investments of our 188 shareholders have been supported by ARIB (PRIA) within the framework
                         of the European Agricultural Fund for Rural Development (EAFRD). In 2019 we were awarded a grant
