@@ -19,7 +19,7 @@ build:
 dependencies:
     nodejs:
       gulp: "4.0.2"
-      yarn: "1.22.5"
+      yarn: "1.22.15"
 
 hooks:
     build: |

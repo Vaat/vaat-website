@@ -24,16 +24,16 @@ function jqueryTask() {
 }
 
 function lightgalleryTask() {
-    return gulp.src('node_modules/lightgallery/dist/js/lightgallery.min.js')
+    return gulp.src('node_modules/lightgallery/lightgallery.min.js')
         .pipe(gulp.dest('public/js/'));
 }
 
 function lightgalleryCssTask() {
-    return gulp.src('node_modules/lightgallery/dist/css/lightgallery.css')
+    return gulp.src('node_modules/lightgallery/css/lightgallery.css')
         .pipe(gulp.dest('public/css/'));
 }
 
 function lightgalleryFontsTask() {
-    return gulp.src('node_modules/lightgallery/dist/fonts/**.*')
+    return gulp.src('node_modules/lightgallery/fonts/**.*')
         .pipe(gulp.dest('public/fonts/'));
 }
