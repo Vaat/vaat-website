@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Vaat brewery">
+    <meta name="description" content="Vaat Brewery">
     <meta name="author" content="Vaat OÜ">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Vaat - Do Your Own Thing.">
@@ -310,8 +310,9 @@
             <div class="row">
                 <div class="col-sm-4 col-xs-6">
                     <p>
-                        Türi 6<br/>
-                        11313 Tallinn<br/>
+                        Telliskivi 60/1 (postbox & official address)<br/>
+                        Telliskivi 60M (location)<br/>
+                        10412 Tallinn<br/>
                         Estonia<br/>
                         <a href="mailto:vaat@vaat.ee">vaat@vaat</a>
                     </p>
