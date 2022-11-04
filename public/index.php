@@ -76,6 +76,7 @@
                         While the bar has already celebrated its first anniversary, the brewery is still to be completed.
                         In the meantime we're also working on a new website. Stay tuned!
                     </p>
+                    <br/>
                     <h2>Teeme oma asja ja ehitame tulevikku</h2>
                     <p>
                         Vaat pruulikoja eesmärk on toota head õlut, vastutustundlikult. Selleks oleme Tallinna kesklinna
@@ -100,6 +101,11 @@
                         The investments of our 188 shareholders have been supported by ARIB (PRIA) within the framework
                         of the European Agricultural Fund for Rural Development (EAFRD). In 2019 we were awarded a grant
                         of 175'000€ to aid the purchase of production equipment for the new brewery.
+                    </p>
+                    <br/>
+                    <p class="pria">
+                        Meie 188 osaniku investeeringuid toetab Euroopa Maaelu Arengu Põllumajandusfond (EAFRD) raames PRIA.
+                        2019. aastal saime uue pruulikoja tootmisseadmete soetamiseks toetust summas 175 000 eurot.
                     </p>
                 </div>
             </div>
