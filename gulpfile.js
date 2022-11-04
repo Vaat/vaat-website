@@ -29,7 +29,7 @@ function lightgalleryTask() {
 }
 
 function lightgalleryCssTask() {
-    return gulp.src('node_modules/lightgallery/css/lightgallery.css')
+    return gulp.src('node_modules/lightgallery/css/lightgallery-bundle.css')
         .pipe(gulp.dest('public/css/'));
 }
 

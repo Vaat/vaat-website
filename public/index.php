@@ -15,12 +15,12 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+    <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css" />
     <script src="js/jquery.min.js"></script>
     <script src="js/lightgallery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#lightgallery').lightGallery({
+            lightGallery(document.getElementById('lightgallery'), {
                 counter: false,
                 download: false,
                 mode: 'lg-fade'
