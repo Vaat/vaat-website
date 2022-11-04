@@ -48,18 +48,6 @@
                     <h1>
                         Do. Your.<br/>Own. Thing.
                     </h1>
-                    <h2>
-                        The Vaat manifesto
-                    </h2>
-                    <p>
-                        Don’t run after the market. Follow your drive and curiosity. Create the market.<br/>
-                        Beer styles are like crutches. Learn to walk without them, they’re limiting your movement.<br/>
-                        Be anti-mainstream even in an anti-mainstream environment. Spend your “fucks given” wisely.<br/>
-                        Don’t be afraid of taking the hard way. Doing things right creates true satisfaction. Quality is not negotiable.<br/>
-                        Never stop improving. Your process, your beers, yourself. Innovation is the only way to win.<br/>
-                        Don’t compare to others. Ignore the haters, love those who appreciate what you do. Include them in your dream.<br/>
-                        Do your own thing.
-                    </p>
                 </div>
                 <div class="col-lg-offset-2"></div>
             </div>
@@ -85,8 +73,25 @@
                         There is struggle, there is progress, there are setbacks, there's success.
                     </p>
                     <p>
-                        We absolutely can't wait to open our doors for you. Soon. Maybe this spring, maybe summer.
-                        Our vision will get us there, see you soon!
+                        While the bar has already celebrated its first anniversary, the brewery is still to be completed.
+                        In the meantime we're also working on a new website. Stay tuned!
+                    </p>
+                    <h2>Teeme oma asja ja ehitame tulevikku</h2>
+                    <p>
+                        Vaat pruulikoja eesmärk on toota head õlut, vastutustundlikult. Selleks oleme Tallinna kesklinna
+                        ehitamas innovatiivset, väikseima jalajäljega pruulikoda Eestis (et mitte öelda maailmas).
+                    </p>
+                    <p>
+                        Pruulikoja ehitamiseks saime toetust kokku 188 erainvestorilt, Eesti riigilt ja Euroopa Liidult.
+                        Oleme teile lõputult tänulikud!
+                    </p>
+                    <p>
+                        Lisaks pruulikojale on valmimas ka uus veebileht, kus saab olema rohkem ja oluliselt detailsemat
+                        infot nii pruulikoja kui meie toodete kohta. Seni palume lisainfo saamiseks pöörduda meie poole
+                        läbi meie sotsiaalmeediakanalite või meiliaadressil info@vaat.ee.
+                    </p>
+                    <p>
+                        Terviseks!
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -264,6 +269,24 @@
                 </div>
                 <div class="col-md-4 beer-wrapper">
 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        The Vaat manifesto
+                    </h2>
+                    <hr/>
+
+                    <p>
+                        Don’t run after the market. Follow your drive and curiosity. Create the market.<br/>
+                        Beer styles are like crutches. Learn to walk without them, they’re limiting your movement.<br/>
+                        Be anti-mainstream even in an anti-mainstream environment. Spend your “fucks given” wisely.<br/>
+                        Don’t be afraid of taking the hard way. Doing things right creates true satisfaction. Quality is not negotiable.<br/>
+                        Never stop improving. Your process, your beers, yourself. Innovation is the only way to win.<br/>
+                        Don’t compare to others. Ignore the haters, love those who appreciate what you do. Include them in your dream.<br/>
+                        Do your own thing.
+                    </p>
                 </div>
             </div>
             <div class="row">
