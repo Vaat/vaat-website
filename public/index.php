@@ -9,8 +9,8 @@
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Vaat - Do Your Own Thing.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://vaat.ee/">
-    <meta property="og:image" content="http://vaat.ee/images/opengraph-header.png">
+    <meta property="og:url" content="https://vaat.ee/">
+    <meta property="og:image" content="https://vaat.ee/images/opengraph-header.png">
     <title>Vaat</title>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Inter">
@@ -30,7 +30,7 @@
 </head>
 
 <body>
-<a name="top"></a>
+<div id="top"></div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-10">
@@ -348,9 +348,8 @@
                 </div>
                 <div class="col-sm-4 col-xs-6">
                     <a href="https://untappd.com/VaatBrewery">Untappd</a><br/>
-                    <a href="http://facebook.com/vaatbrewery">Facebook</a><br/>
-                    <a href="http://instagram.com/vaatbrewery">Instagram</a><br/>
-                    <a href="http://twitter.com/vaatbrewery">Twitter</a>
+                    <a href="https://facebook.com/vaatbrewery">Facebook</a><br/>
+                    <a href="https://instagram.com/vaatbrewery">Instagram</a><br/>
                 </div>
                 <div class="col-sm-offset-4 col-xs-offset-0"></div>
             </div>
