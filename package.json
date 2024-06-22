@@ -6,16 +6,17 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
-    "expose-loader": "^5.0.0",
     "jquery": "^3.7.1",
     "lightgallery": "^2.7.2"
   },
   "devDependencies": {
+    "expose-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
     "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4",
-    "webpack-merge": "^5.10.0",
-    "expose-loader": "^5.0.0"
+    "webpack-merge": "^5.10.0"
   },
   "repository": {
     "type": "git",

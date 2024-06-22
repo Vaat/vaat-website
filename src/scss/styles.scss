@@ -1,17 +1,17 @@
 // Override bootstrap variables before importing bootstrap, that's how !default works
 $font-family-sans-serif: 'Inter', 'GalanoGrotesqueAlt-Regular', G-apple-system, BlinkMacSystemFont, sans-serif;
-$font-size-base: 16px;
-$font-size-h1: 48px;
-$font-size-h2: 48px;
-$font-size-h3: 18px;
-$font-size-h4: 13px;
+$h1-font-size: 3rem;
+$h2-font-size: 3rem;
+$h3-font-size: 1.2rem;
+$h4-font-size: 0.9rem;
 
 // Custom variables
 $colorPirange: #E37462;
 $colorLightgray: #D1D6D9;
 $colorText: #34383b;
 
-@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bootstrap";
+@import "node_modules/lightgallery/scss/lightgallery.scss";
 @import "fonts";
 
 body {
@@ -28,12 +28,26 @@ body {
   padding: 80px;
 }
 
+.do-your-own-thing {
+  margin-top: 22px;
+  margin-bottom: 11px;
+}
+
 .fixed {
   position: fixed;
 }
 
+.right-hand {
+  float: right;
+}
+
 .top-row {
   padding-bottom: 50px;
+}
+
+.tlpfb {
+  width: 80%;
+  height: auto;
 }
 
 .background-pirange {
@@ -111,10 +125,14 @@ h1, h2, h3, h4 {
 h2 {
   color: $colorLightgray;
   padding: 30px 0;
+  margin-top: 22px;
+  margin-bottom: 11px;
 }
 
 h3 {
   padding-bottom: 10px;
+  margin-top: 22px;
+  margin-bottom: 11px;
 }
 
 h4 {
@@ -143,14 +161,14 @@ hr {
 // screen size optimizations
 // -------------------------
 // tablets and such
-@media (max-width: $screen-md-max) {
+@media (max-width: map-get($container-max-widths, "md")) {
   .bottle {
     max-width: 180px;
   }
 }
 
 
-@media (max-width: $screen-sm-max) {
+@media (max-width: map-get($container-max-widths, "sm")) {
   .container-fluid {
     padding: 40px;
   }
@@ -164,7 +182,7 @@ hr {
 }
 
 // phones and such
-@media (max-width: $screen-sm-min) {
+@media (max-width: map-get($container-max-widths, "sm")) {
   body {
     border-width: 4px;
   }
