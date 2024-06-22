@@ -18,6 +18,7 @@
     <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css" />
     <script src="js/jquery.min.js"></script>
     <script src="js/lightgallery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             lightGallery(document.getElementById('lightgallery'), {
@@ -51,7 +52,7 @@
                 </div>
                 <div class="col-lg-offset-2"></div>
             </div>
-            <div class="row background-pirange">
+            <div class="row background-pirange hidden">
                 <div class="col-md-8">
                     <h2>Building the future</h2>
                     <p>
@@ -111,7 +112,239 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Our beers</h2>
+                    <h2>Our Taproom</h2>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>
+                        <a href="https://taproom.vaat.ee" target="_blank">The Vaat Taproom</a> is located in the heart of Tallinn, in Telliskivi TLN.
+                        We are open from Wednesday to Saturday. Come and enjoy our beers and meads in a cozy atmosphere, take a
+                        tour of our brewery, participate in a guided tasting, play a board game with friends, or just hang out.
+                    </p>
+                    <p>For all information regarding our taproom visit <a href="https://taproom.vaat.ee" target="_blank">taproom.vaat.ee</a></p>
+                </div>
+                <div class="col-md-8">
+                    <a href="https://taproom.vaat.ee" target="_blank"><img src="images/header-taproom.jpg" width="100%" alt="Vaat Taproom" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Our beers & meads</h2>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/supernova-can-render.png" alt="Supernova" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>Supernova</h3>
+                            <h4>Modern Lager<br/>alc 4.8% vol</h4>
+                            <p class="beer-description">
+                                Supernova is a crisp and crushable modern lager! It combines high drinkability with a
+                                gentle sweetness and a moderate floral bitterness. As our first ever pale lager beer it
+                                started as an experiment and became a keeper.
+                            </p>
+                            <p>
+                                Supernova won the <a href="https://awards.untappd.com/assets/awards/5562282.png" target="_blank">Untappd community award</a> for the best pale lager in Estonia in 2023!
+                            </p>
+                            <p class="availability">
+                                Available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/people-pleasner-can-render.png" alt="People Pleasner" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>People Pleasner</h3>
+                            <h4>Hoppy Pilsner<br/>alc 4.8% vol</h4>
+                            <p class="beer-description">
+                                This dry hopped single hop Pilsner has one purpose - to let Enigma shine! Enigma is an
+                                exciting hop variety from Australia which lends the beer the aromas and flavours
+                                of tart berries, tropical fruits, and white grapes.
+                            </p>
+                            <p>
+                                People Pleasner hasn't won any awards yet, but it sure has won many hearts and palates
+                                already with its unique hoppy freshness!
+                            </p>
+                            <p class="availability">
+                                Available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/finally-can-render.png" alt="Finally!" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>Finally!</h3>
+                            <h4>Micro IPA<br/>alc 2.9% vol</h4>
+                            <p class="beer-description">
+                                We love small beers, and we think there’s not enough of them. Incredibly easy drinking
+                                with a body that belies the low ABV, this pale malt and Mosaic SMaSH brew is the perfect
+                                lunch beer. This is the first recipe we developed at our new brewery in
+                                Telliskivi, Tallinn. Finally!
+                            </p>
+                            <p class="availability">
+                                Available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/kveikly-now-can-render.png" alt="Kveikly Now" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>Kveikly Now</h3>
+                            <h4>Farmhouse IPA<br/>alc 5.3% vol</h4>
+                            <p class="beer-description">
+                                Kveik is a Norwegian farmhouse yeast, which gives this beer a farmhouse IPA quality.
+                                It's a balanced, crisp, and flavorful brew with a hazy appearance.
+                                It has a warm fruitiness, hints of citrus, and herbal notes,
+                                with just the right amount of funk.
+                            </p>
+                            <p class="availability">
+                                Available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/happy-endeavours-can-render.png" alt="Happy Endeavours" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>Happy Endeavours</h3>
+                            <h4>White Session IPA<br/>alc 4.5% vol</h4>
+                            <p class="beer-description">
+                                Brewing is ultimately a happy endeavour! With this hoppy wheat beer, we want to celebrate
+                                that fact. This flavourful Session IPA is brewed with El Dorado and dry hopped with Centennial.
+                            </p>
+                            <p class="availability">
+                                Available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/the-coast-is-clear-can-render.png" alt="The Coast is Clear" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>The Coast is Clear</h3>
+                            <h4>West Coast IPA<br/>alc 5.8% vol</h4>
+                            <p class="beer-description">
+                                Simcoe, Columbus, Centennial and a bitter finish. This is a throwback to the good old days.
+                                Weʼve been going on about how there are not enough West Coast IPAs, well, here's one!
+                            </p>
+                            <p class="availability">
+                                Available soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/tallinner-weizen-can-render.png" alt="Tallinner Weizen" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>Tallinner Weizen</h3>
+                            <h4>German Hefeweizen<br/>alc 4.4% vol</h4>
+                            <p class="beer-description">
+                                Tallinn has given us a lot. Here's where we grew up in terms of beer.
+                                Before the arrival of the IPA we had the Belgians and the German wheat beers.
+                                It's time to give something back. This is for Tallinn, a city where German beer culture
+                                and wheat have always been first class citizens.
+                            </p>
+                            <p class="availability">
+                                Available soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-3 col-xs-3">
+                            <img class="can" src="images/fizzy-bee-can-render.png" alt="Fizzy Bee" />
+                        </div>
+                        <div class="col-md-12 col-sm-9 col-xs-9">
+                            <h3>Fizzy Bee</h3>
+                            <h4>Dry sparkling mead<br/>alc 4.8% vol</h4>
+                            <p class="beer-description">
+                                This light and refreshing Melomel is brewed with organic Estonian honey and a little mango.
+                                It is fermented with white wine yeast from the Vinho Verde region of Portugal.
+                            </p>
+                            <p class="availability">
+                                Back in stock soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Our Brewery</h2>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>
+                        We started out as brewing nomads before building our dream brewery in the heart of the
+                        Telliskivi neighbourhood of Tallinn, Estonia.
+                    </p>
+                    <p>
+                        It is our mission to lower the ecological footprint of artisanal beer production in every way we can.
+                        Thanks to our amazing community, we were able to build a highly innovative brewing system on
+                        which we’re brewing the beers we love to drink.
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <div id="breweryCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Our legacy beers</h2>
                     <hr/>
                 </div>
             </div>
@@ -133,7 +366,7 @@
                                 it’s strong enough to get us out again.”
                             </p>
                             <p class="availability">
-                                Available in all our markets.
+                                Out-of-stock. We miss you, JB. You'll be back some day.
                             </p>
                         </div>
                     </div>
@@ -155,7 +388,7 @@
                                 characteristics, and the elegant aromas of white wine.
                             </p>
                             <p class="availability">
-                                Available in all our markets.
+                                Partially available. Our good old superstar. It's time for you to be in a can.
                             </p>
                         </div>
                     </div>
@@ -177,7 +410,7 @@
                                 than Life.
                             </p>
                             <p class="availability">
-                                Out of stock.
+                                Out of stock. Not in production anymore. Maybe a comeback in a can someday?
                             </p>
                         </div>
                     </div>
@@ -201,7 +434,7 @@
                                 Beyond dreams, Big.
                             </p>
                             <p class="availability">
-                                Out of stock.
+                                Out of stock. Not in production anymore.
                             </p>
                         </div>
                     </div>
@@ -222,7 +455,7 @@
                                 Our take on the session IPA – the IPK.
                             </p>
                             <p class="availability">
-                                Available in all our markets.
+                                Out of stock. Not in production anymore.
                             </p>
                         </div>
                     </div>
@@ -243,7 +476,7 @@
                                 Belgian ales with the sour, fruity and refreshing notes of hand-picked Estonian cowberries.
                             </p>
                             <p class="availability">
-                                Seasonal, currently not available.
+                                Seasonal, currently not available but will be back in a can for sure.
                             </p>
                         </div>
                     </div>
@@ -265,7 +498,7 @@
                                 A prototype we can't wait to produce.
                             </p>
                             <p class="availability">
-                                Not released yet.
+                                Not released yet. It's about time, right?
                             </p>
                         </div>
                     </div>
@@ -366,5 +599,6 @@
         </div>
     </div>
 </div>
+<script>$('#breweryCarousel').carousel();</script>
 </body>
 </html>
