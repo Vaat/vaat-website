@@ -16,18 +16,6 @@
           href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            lightGallery(document.getElementById('lightgallery'), {
-                counter: false,
-                download: false,
-                mode: 'lg-fade'
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -100,7 +88,7 @@
                     <img src="images/pria-eu.png" alt="PRIA Logo and EAFRD Emblem">
                     <p class="pria">
                         The investments of our 188 shareholders have been supported by ARIB (PRIA) within the framework
-                        of the European Agricultural Fund for Rural Development (EAFRD). In 2019 we were awarded a grant
+                        of the European Agricultural Fund for Rural Development (EAFRD). In 2019, we were awarded a grant
                         of 175'000€ to aid the purchase of production equipment for the new brewery.
                     </p>
                     <br/>
@@ -322,13 +310,13 @@
                     <div id="breweryCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <img src="#" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <img src="#" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <img src="#" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -599,6 +587,12 @@
         </div>
     </div>
 </div>
-<script>$('#breweryCarousel').carousel();</script>
+<script src="js/scripts.js"></script>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [],
+        speed: 500,
+    });
+</script>
 </body>
 </html>
