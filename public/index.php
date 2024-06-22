@@ -14,8 +14,7 @@
     <title>Vaat</title>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Inter">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css" />
 </head>
 
 <body>
@@ -28,19 +27,19 @@
                     <img src="images/logo.svg" alt="VAAT" width="72"/>
                 </div>
                 <div class="col-lg-offset-4 col-md-offset-3"></div>
-                <div class="col-sm-1 col-xs-2 hidden-md hidden-lg">
+                <div class="col-sm-1 col-xs-2 d-md-none">
                    <img class="pull-right" src="images/hand.svg" alt="V sign"/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-10">
-                    <h1>
+                    <h1 class="do-your-own-thing">
                         Do. Your.<br/>Own. Thing.
                     </h1>
                 </div>
                 <div class="col-lg-offset-2"></div>
             </div>
-            <div class="row background-pirange hidden">
+            <div class="row background-pirange d-none">
                 <div class="col-md-8">
                     <h2>Building the future</h2>
                     <p>
@@ -297,33 +296,42 @@
             <div class="row">
                 <div class="col-md-4">
                     <p>
-                        We started out as brewing nomads before building our dream brewery in the heart of the
-                        Telliskivi neighbourhood of Tallinn, Estonia.
-                    </p>
-                    <p>
                         It is our mission to lower the ecological footprint of artisanal beer production in every way we can.
                         Thanks to our amazing community, we were able to build a highly innovative brewing system on
                         which we’re brewing the beers we love to drink.
                     </p>
+                    <p>
+                        We make balanced, drinkable and clean beers that can withstand the test of time.
+                    </p>
+                    <img src="images/vaat-lfpb.png" class="tlpfb" alt="Lowest Possible Footprint Brewery" />
                 </div>
                 <div class="col-md-8">
                     <div id="breweryCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#breweryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#breweryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#breweryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#breweryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="#" class="d-block w-100" alt="...">
+                                <img src="images/vaat-brewery-1.jpg" class="d-block w-100" alt="Vaat Brewery">
                             </div>
                             <div class="carousel-item">
-                                <img src="#" class="d-block w-100" alt="...">
+                                <img src="images/vaat-brewery-2.jpg" class="d-block w-100" alt="Vaat Brewery">
                             </div>
                             <div class="carousel-item">
-                                <img src="#" class="d-block w-100" alt="...">
+                                <img src="images/vaat-brewery-3.jpg" class="d-block w-100" alt="Vaat Brewery">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/vaat-brewery-4.jpg" class="d-block w-100" alt="Vaat Brewery">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#breweryCarousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#breweryCarousel" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -582,7 +590,7 @@
         </div>
         <div class="col-md-1 col-md-offset-1">
             <div class="col-md-1 fixed">
-                <a href="#top"><img src="images/hand.svg" alt="V sign"/></a>
+                <a href="#top"><img class="right-hand" src="images/hand.svg" alt="V sign"/></a>
             </div>
         </div>
     </div>
