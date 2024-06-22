@@ -1,18 +1,18 @@
 {
   "name": "vaat",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Vaat Brewery website",
   "main": "index.php",
   "dependencies": {
-    "bootstrap-sass": "^3.4.1",
-    "jquery": "^3.6.0",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2",
-    "lightgallery": "^2.2.1"
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "lightgallery": "^2.7.2"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,6 @@
   ],
   "author": "Vaat",
   "homepage": "vaat.ee",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "packageManager": "yarn@4.3.1+sha512.af78262d7d125afbfeed740602ace8c5e4405cd7f4735c08feb327286b2fdb2390fbca01589bfd1f50b1240548b74806767f5a063c94b67e431aabd0d86f7774"
 }
