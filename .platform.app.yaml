@@ -18,7 +18,7 @@ build:
 
 dependencies:
     nodejs:
-      yarn: "3.8.2"
+      yarn: "1.22.17"
 
 hooks:
     build: |
