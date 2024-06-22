@@ -5,7 +5,7 @@
 name: vaat
 
 # The runtime the application uses.
-type: "php:7.4"
+type: "php:8.3"
 
 timezone: Europe/Zurich
 
@@ -18,14 +18,12 @@ build:
 
 dependencies:
     nodejs:
-      gulp: "4.0.2"
-      yarn: "1.22.15"
+      yarn: "4.3.1"
 
 hooks:
     build: |
         set -e
         yarn install
-        gulp
 
 # The configuration of app when it is exposed to the web.
 web:
