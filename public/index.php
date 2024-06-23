@@ -21,14 +21,10 @@
 <div id="top"></div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-10 col-sm-12">
             <div class="row top-row">
                 <div class="col-lg-8 col-md-9 col-sm-11 col-xs-10">
-                    <img src="images/logo.svg" alt="VAAT" width="72"/>
-                </div>
-                <div class="col-lg-offset-4 col-md-offset-3"></div>
-                <div class="col-sm-1 col-xs-2 d-md-none">
-                   <img class="pull-right" src="images/hand.svg" alt="V sign"/>
+                    <img src="images/logo.svg" alt="VAAT" width="80"/>
                 </div>
             </div>
             <div class="row">
@@ -37,7 +33,6 @@
                         Do. Your.<br/>Own. Thing.
                     </h1>
                 </div>
-                <div class="col-lg-offset-2"></div>
             </div>
             <div class="row background-pirange d-none">
                 <div class="col-md-8">
@@ -588,9 +583,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-1 col-md-offset-1">
-            <div class="col-md-1 fixed">
-                <a href="#top"><img class="right-hand" src="images/hand.svg" alt="V sign"/></a>
+        <div class="col-md-1 offset-md-1 d-none d-md-block">
+            <div class="right-hand-wrapper">
+                <a href="#top"><img class="right-hand" src="images/hand.svg" width="40px" alt="V sign"/></a>
             </div>
         </div>
     </div>
