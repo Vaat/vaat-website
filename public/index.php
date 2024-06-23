@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12">
                     <p>
                         <a href="https://taproom.vaat.ee" target="_blank">The Vaat Taproom</a> is located in the heart of Tallinn, in Telliskivi TLN.
                         We are open from Wednesday to Saturday. Come and enjoy our beers and meads in a cozy atmosphere, take a
@@ -107,7 +107,7 @@
                     </p>
                     <p>For all information regarding our taproom visit <a href="https://taproom.vaat.ee" target="_blank">taproom.vaat.ee</a></p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <a href="https://taproom.vaat.ee" target="_blank"><img src="images/header-taproom.jpg" width="100%" alt="Vaat Taproom" /></a>
                 </div>
             </div>
@@ -289,7 +289,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12">
                     <p>
                         It is our mission to lower the ecological footprint of artisanal beer production in every way we can.
                         Thanks to our amazing community, we were able to build a highly innovative brewing system on
@@ -300,7 +300,7 @@
                     </p>
                     <img src="images/vaat-lfpb.png" class="tlpfb" alt="Lowest Possible Footprint Brewery" />
                 </div>
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <div id="breweryCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#breweryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
