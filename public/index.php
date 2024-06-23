@@ -118,12 +118,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/supernova-can-render.webp" alt="Supernova" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Supernova</h3>
                             <h4>Modern Lager<br/>alc 4.8% vol</h4>
                             <p class="beer-description">
@@ -140,12 +140,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/people-pleasner-can-render.webp" alt="People Pleasner" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>People Pleasner</h3>
                             <h4>Hoppy Pilsner<br/>alc 4.8% vol</h4>
                             <p class="beer-description">
@@ -163,12 +163,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/finally-can-render.webp" alt="Finally!" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Finally!</h3>
                             <h4>Micro IPA<br/>alc 2.9% vol</h4>
                             <p class="beer-description">
@@ -185,12 +185,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/kveikly-now-can-render.webp" alt="Kveikly Now" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Kveikly Now</h3>
                             <h4>Farmhouse IPA<br/>alc 5.3% vol</h4>
                             <p class="beer-description">
@@ -205,12 +205,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/happy-endeavours-can-render.webp" alt="Happy Endeavours" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Happy Endeavours</h3>
                             <h4>White Session IPA<br/>alc 4.5% vol</h4>
                             <p class="beer-description">
@@ -223,12 +223,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/the-coast-is-clear-can-render.webp" alt="The Coast is Clear" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>The Coast is Clear</h3>
                             <h4>West Coast IPA<br/>alc 5.8% vol</h4>
                             <p class="beer-description">
@@ -243,12 +243,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/tallinner-weizen-can-render.webp" alt="Tallinner Weizen" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Tallinner Weizen</h3>
                             <h4>German Hefeweizen<br/>alc 4.4% vol</h4>
                             <p class="beer-description">
@@ -263,12 +263,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="can" src="images/fizzy-bee-can-render.webp" alt="Fizzy Bee" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Fizzy Bee</h3>
                             <h4>Dry sparkling mead<br/>alc 4.8% vol</h4>
                             <p class="beer-description">
@@ -290,15 +290,21 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-12">
-                    <p>
-                        It is our mission to lower the ecological footprint of artisanal beer production in every way we can.
-                        Thanks to our amazing community, we were able to build a highly innovative brewing system on
-                        which we’re brewing the beers we love to drink.
-                    </p>
-                    <p>
-                        We make balanced, drinkable and clean beers that can withstand the test of time.
-                    </p>
-                    <img src="images/vaat-lfpb.png" class="tlpfb" alt="Lowest Possible Footprint Brewery" />
+                    <div class="row">
+                        <div class="col-lg-12 col-md-8">
+                            <p>
+                                It is our mission to lower the ecological footprint of artisanal beer production in every way we can.
+                                Thanks to our amazing community, we were able to build a highly innovative brewing system on
+                                which we’re brewing the beers we love to drink.
+                            </p>
+                            <p>
+                                We make balanced, drinkable and clean beers that can withstand the test of time.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 col-md-4">
+                            <img src="images/vaat-lfpb.png" class="tlpfb" alt="Lowest Possible Footprint Brewery" />
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-8">
                     <div id="breweryCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -340,12 +346,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle" src="images/jb.png" alt="Jailhouse Brew" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Jailhouse Brew</h3>
                             <h4>Russian Imperial Oatmeal Stout<br/>ABV 9.1%</h4>
                             <div class="beer-icon-wrapper">
@@ -362,12 +368,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle" src="images/wn.png" alt="Witty Nelson" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Witty Nelson</h3>
                             <h4>Wit inspired ale<br/>ABV 5.5%</h4>
                             <div class="beer-icon-wrapper">
@@ -384,12 +390,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle" src="images/ltl.png" alt="Lager than Life" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Lager than Life</h3>
                             <h4>Hoppy Vienna Red<br/>ABV 4.7%</h4>
                             <div class="beer-icon-wrapper">
@@ -408,12 +414,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle" src="images/be.png" alt="Blimey!" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Blimey!</h3>
                             <h4>New England Double IPA<br/>ABV 8.0%</h4>
                             <div class="beer-icon-wrapper">
@@ -430,12 +436,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle" src="images/ipk.png" alt="India Pale Kölsch" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>IPK</h3>
                             <h4>Session IPA<br/>ABV 4.6%</h4>
                             <div class="beer-icon-wrapper">
@@ -451,12 +457,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle" src="images/fd.png" alt="Forest Dubbel" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>Forest Dubbel</h3>
                             <h4>Belgian Ale with Estonian Cowberries<br/>ABV 7.5%</h4>
                             <div class="beer-icon-wrapper">
@@ -474,12 +480,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
                     <div class="row">
-                        <div class="col-md-12 col-sm-3 col-xs-3">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
                             <img class="bottle large-bottle" src="images/sob.png" alt="San of a Birch" />
                         </div>
-                        <div class="col-md-12 col-sm-9 col-xs-9">
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
                             <h3>San of a Birch</h3>
                             <h4>Nordic Sake Beer<br/>ABV 7.0%</h4>
                             <div class="beer-icon-wrapper">
@@ -494,10 +500,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
 
                 </div>
-                <div class="col-md-4 beer-wrapper">
+                <div class="col-lg-4 beer-wrapper">
 
                 </div>
             </div>
