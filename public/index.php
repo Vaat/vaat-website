@@ -29,7 +29,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-10">
-                    <h1 class="do-your-own-thing">
+                    <h1>
                         Do. Your.<br/>Own. Thing.
                     </h1>
                 </div>

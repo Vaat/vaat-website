@@ -24,13 +24,27 @@ body {
   line-height: 2;
 }
 
+@include media-breakpoint-down(sm) {
+  body {
+    border: none;
+    line-height: 1.5;
+  }
+}
+
 .container-fluid {
   padding: 80px;
 }
 
-.do-your-own-thing {
-  margin-top: 22px;
-  margin-bottom: 11px;
+@include media-breakpoint-down(md) {
+  .container-fluid {
+    padding: 40px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .container-fluid {
+    padding: 20px;
+  }
 }
 
 .right-hand-wrapper {
@@ -47,6 +61,12 @@ body {
 .tlpfb {
   width: 80%;
   height: auto;
+}
+
+@include media-breakpoint-down(sm) {
+  .tlpfb {
+    width: 50%;
+  }
 }
 
 .background-pirange {
@@ -77,11 +97,23 @@ body {
   margin: auto;
 }
 
+@include media-breakpoint-down(sm) {
+  .bottle {
+    max-width: 150px;
+  }
+}
+
 .can {
   width: 100%;
   max-width: 300px;
   display: block;
   margin: auto;
+}
+
+@include media-breakpoint-down(sm) {
+  .can {
+    max-width: 200px;
+  }
 }
 
 .large-bottle {
@@ -121,17 +153,31 @@ h1, h2, h3, h4 {
   text-rendering: optimizeLegibility
 }
 
-h2 {
-  color: $colorLightgray;
-  padding: 30px 0;
+h1, h2, h3 {
   margin-top: 22px;
   margin-bottom: 11px;
 }
 
+@include media-breakpoint-down(sm) {
+  h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+}
+
+h2 {
+  color: $colorLightgray;
+  padding: 30px 0;
+}
+
+@include media-breakpoint-down(sm) {
+  h2 {
+    padding: 30px 0 15px 0;
+  }
+}
+
 h3 {
   padding-bottom: 10px;
-  margin-top: 22px;
-  margin-bottom: 11px;
 }
 
 h4 {
@@ -146,6 +192,12 @@ hr {
   opacity: 0.40;
   margin: 1em 0;
   padding: 0 0 20px 0;
+}
+
+@include media-breakpoint-down(sm) {
+  hr {
+    display: none;
+  }
 }
 
 .faces {
