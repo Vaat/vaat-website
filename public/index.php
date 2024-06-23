@@ -121,7 +121,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/supernova-can-render.png" alt="Supernova" />
+                            <img class="can" src="images/supernova-can-render.webp" alt="Supernova" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Supernova</h3>
@@ -143,7 +143,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/people-pleasner-can-render.png" alt="People Pleasner" />
+                            <img class="can" src="images/people-pleasner-can-render.webp" alt="People Pleasner" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>People Pleasner</h3>
@@ -166,7 +166,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/finally-can-render.png" alt="Finally!" />
+                            <img class="can" src="images/finally-can-render.webp" alt="Finally!" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Finally!</h3>
@@ -188,7 +188,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/kveikly-now-can-render.png" alt="Kveikly Now" />
+                            <img class="can" src="images/kveikly-now-can-render.webp" alt="Kveikly Now" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Kveikly Now</h3>
@@ -208,7 +208,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/happy-endeavours-can-render.png" alt="Happy Endeavours" />
+                            <img class="can" src="images/happy-endeavours-can-render.webp" alt="Happy Endeavours" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Happy Endeavours</h3>
@@ -226,7 +226,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/the-coast-is-clear-can-render.png" alt="The Coast is Clear" />
+                            <img class="can" src="images/the-coast-is-clear-can-render.webp" alt="The Coast is Clear" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>The Coast is Clear</h3>
@@ -246,7 +246,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/tallinner-weizen-can-render.png" alt="Tallinner Weizen" />
+                            <img class="can" src="images/tallinner-weizen-can-render.webp" alt="Tallinner Weizen" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Tallinner Weizen</h3>
@@ -266,7 +266,7 @@
                 <div class="col-md-4 beer-wrapper">
                     <div class="row">
                         <div class="col-md-12 col-sm-3 col-xs-3">
-                            <img class="can" src="images/fizzy-bee-can-render.png" alt="Fizzy Bee" />
+                            <img class="can" src="images/fizzy-bee-can-render.webp" alt="Fizzy Bee" />
                         </div>
                         <div class="col-md-12 col-sm-9 col-xs-9">
                             <h3>Fizzy Bee</h3>
