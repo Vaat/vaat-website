@@ -40,3 +40,13 @@ web:
             rules:
                 \.(css|js|gif|jpe?g|png|ttf|eot|woff|woff2|otf|html|ico|svg?)$:
                     allow: true
+        "/brewing":
+            "root": "public"
+            index:
+              - "brewing.html"
+            expires: -1
+            scripts: true
+            allow: true
+            rules:
+                \.(css|js|gif|jpe?g|png|ttf|eot|woff|woff2|otf|html|ico|svg?)$:
+                    allow: true
