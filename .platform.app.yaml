@@ -43,7 +43,7 @@ web:
         "/brewing":
             "root": "public"
             index:
-              - "brewing.html"
+              - "brewing.php"
             expires: -1
             scripts: true
             allow: true
