@@ -1,3 +1,14 @@
+<?php
+// Get all image files from the directory
+$images = glob('images/faces-of-vaat/*.jpg');
+
+// Shuffle the array of image files
+shuffle($images);
+
+// Select the first X images
+$selectedImages = array_slice($images, 0, 5);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,7 +105,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Our Taproom</h2>
+                    <h2>Our Taproom & Community</h2>
                     <hr/>
                 </div>
             </div>
@@ -109,6 +120,29 @@
                 </div>
                 <div class="col-lg-8">
                     <a href="https://taproom.vaat.ee" target="_blank"><img src="images/header-taproom.jpg" width="100%" alt="Vaat Taproom" /></a>
+                </div>
+            </div>
+            <div class="row faces-section">
+                <div class="col-lg-4 col-md-12 faces-text">
+                    <h3>Faces of Vaat</h3>
+                    <p>
+                        <strong>Our community</strong> is the most important part of our adventure.
+                        It's what makes it all worth it.
+                    </p>
+                    <p>
+                        Check out the beautiful Faces of Vaat,
+                        a photography project by <a href="https://annameurer.com/" target="_blank">Anna Meurer</a> -
+                        herself a face of Vaat.
+                    </p>
+                </div>
+                <div class="col-lg-8 faces-images">
+                    <div class="row">
+                        <div class="col-12">
+                            <?php foreach ($selectedImages as $image): ?>
+                            <img src="<?= $image ?>" alt="faces of our community" class="img-fluid face-img">
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -545,8 +579,8 @@
                 <div class="col-md-12">
                     <div id="lightgallery">
                         <?php
-                        $files = glob('gallery/thumbnails/*.jpg');
-                        foreach ($files as $filename) :
+                        $images = glob('gallery/thumbnails/*.jpg');
+                        foreach ($images as $filename) :
                         ?>
                         <a href="<?= str_replace(array("_tn", "thumbnails/"), array("", "full/"), $filename) ?>">
                             <img src="<?= $filename ?>" width="120px" height="120px" alt="picture of Vaat image gallery" />
@@ -602,6 +636,52 @@
         plugins: [],
         speed: 500,
     });
+</script>
+<script>
+    let currentImages = [];
+
+    function getRandomImage() {
+        return fetch('php/randomFace.php')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                return data.image;
+            })
+            .catch(error => console.error('Error fetching random image:', error));
+    }
+
+    function changeRandomImage() {
+        const faceImages = document.querySelectorAll('.face-img');
+        const randomIndex = Math.floor(Math.random() * faceImages.length);
+        const selectedImage = faceImages[randomIndex];
+
+        getRandomImage().then(randomImage => {
+            if (randomImage && !currentImages.includes(randomImage)) {
+                selectedImage.classList.add('fade-out');
+                setTimeout(() => {
+                    selectedImage.src = randomImage;
+                    selectedImage.classList.remove('fade-out');
+                    currentImages[randomIndex] = randomImage;
+                }, 1200); // Match the duration of the CSS transition
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const faceImages = document.querySelectorAll('.face-img');
+        faceImages.forEach((img, index) => {
+            currentImages[index] = img.src;
+        });
+    });
+
+    setInterval(changeRandomImage, 10000); // Change one image every 5 seconds
 </script>
 </body>
 </html>

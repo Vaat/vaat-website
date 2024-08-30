@@ -69,6 +69,38 @@ body {
   }
 }
 
+.faces-section {
+  padding: 30px 0;
+}
+
+.faces-text {
+  padding-right: 20px;
+}
+
+.faces-text h3 {
+  padding: 0;
+  margin-top: 0;
+  color: $colorPirange;
+}
+
+.faces-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.face-img {
+  width: 100%;
+  max-width: 172px;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 1200ms ease-in-out;
+  opacity: 1;
+}
+
+.face-img.fade-out {
+  opacity: 0.05;
+}
+
 .background-pirange {
   background-color: $colorPirange;
   color: white;
