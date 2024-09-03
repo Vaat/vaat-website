@@ -42,9 +42,9 @@
                         </div>
                         <div class="col-lg-12">
                             <h3>Tank 2</h3>
-                            <h4>Finally!</h4>
+                            <h4>Witty Nelson</h4>
                             <p class="beer-description">
-                                BD: 26.08.2024
+                                BD: 02.09.2024
                             </p>
                         </div>
                     </div>
@@ -83,8 +83,9 @@
                         </div>
                         <div class="col-lg-12">
                             <h3>Tank 5</h3>
-                            <h4>empty</h4>
+                            <h4>Finally!</h4>
                             <p class="beer-description">
+                                BD: 26.08.2024
                             </p>
                         </div>
                     </div>
