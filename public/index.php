@@ -110,7 +110,7 @@ $selectedImages = array_slice($images, 0, 5);
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-7 col-md-12">
                     <p>
                         <a href="https://taproom.vaat.ee" target="_blank">The Vaat Taproom</a> is located in the heart of Tallinn, in Telliskivi TLN.
                         We are open from Wednesday to Saturday. Come and enjoy our beers and meads in a cozy atmosphere, take a
@@ -118,7 +118,8 @@ $selectedImages = array_slice($images, 0, 5);
                     </p>
                     <p>For all information regarding our taproom visit <a href="https://taproom.vaat.ee" target="_blank">taproom.vaat.ee</a></p>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
                     <a href="https://taproom.vaat.ee" target="_blank"><img src="images/header-taproom.jpg" width="100%" alt="Vaat Taproom" /></a>
                 </div>
             </div>
@@ -130,9 +131,8 @@ $selectedImages = array_slice($images, 0, 5);
                         It's what makes it all worth it.
                     </p>
                     <p>
-                        Check out the beautiful Faces of Vaat,
-                        a photography project by <a href="https://annameurer.com/" target="_blank">Anna Meurer</a> -
-                        herself a face of Vaat.
+                        Check out the growing number of beautiful Faces of Vaat,
+                        a photography project by <a href="https://annameurer.com/" target="_blank">Anna Meurer</a>.
                     </p>
                 </div>
                 <div class="col-lg-8 faces-images">
@@ -143,6 +143,11 @@ $selectedImages = array_slice($images, 0, 5);
                             <?php endforeach; ?>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <br/>
+                            <a href="faces-of-vaat">See more faces</a>
+                        </div>
                 </div>
             </div>
             <div class="row">

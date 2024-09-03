@@ -40,6 +40,16 @@ web:
             rules:
                 \.(css|js|gif|jpe?g|png|ttf|eot|woff|woff2|otf|html|ico|svg?)$:
                     allow: true
+        "/faces-of-vaat":
+            "root": "public"
+            index:
+                - "faces-of-vaat.php"
+            expires: -1
+            scripts: true
+            allow: true
+            rules:
+                \.(css|js|gif|jpe?g|png|ttf|eot|woff|woff2|otf|html|ico|svg?)$:
+                    allow: true
         "/brewing":
             "root": "public"
             index:
