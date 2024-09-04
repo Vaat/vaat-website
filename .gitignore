@@ -11,3 +11,4 @@ public/fonts/
 !.yarn/sdks
 !.yarn/versions
 /public/js/
+local.env
