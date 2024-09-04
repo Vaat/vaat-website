@@ -43,7 +43,7 @@
             <h2>The Faces of Vaat</h2>
         </div>
         <div class="col-lg-1">
-            <a href="index.php" class="back">back</a>
+            <a href="//vaat.ee" class="back">Home</a>
         </div>
     </div>
     <div class="row no-gutters">

@@ -1,3 +1,47 @@
+<?php
+session_start(['cookie_lifetime' => 2592000]);
+$auth = new Auth();
+
+if (!isset($_ENV['BREWING_PASS']) && (
+        $_SERVER['HTTP_HOST'] === 'vaat-website.ddev.site'
+    )) {
+    $auth->setAuthenticated(true);
+} elseif ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
+    $auth->validate($_POST['password']);
+}
+
+/**
+ * Class Auth
+ */
+class Auth
+{
+    /**
+     * @param $password
+     */
+    public function validate($password)
+    {
+        $result = password_verify($password, $_ENV['BREWING_PASS']);
+        $this->setAuthenticated($result);
+    }
+
+    /**
+     * @param $result
+     */
+    public function setAuthenticated($result)
+    {
+        $_SESSION['hasValidSession'] = $result;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isAuthenticated(): bool
+    {
+        return (isset($_SESSION['hasValidSession']) && $_SESSION['hasValidSession']);
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +56,21 @@
 </head>
 
 <body>
+<?php if (!$auth->isAuthenticated()) : ?>
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="form-inline" action="/brewing.php" method="post">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" name="password" id="password" type="password"/>
+                    </div>
+                    <input class="btn btn-default" name="submit" type="submit" value="log in"/>
+                </form>
+            </div>
+        </div>
+    </div>
+<?php else: ?>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
@@ -109,6 +168,7 @@
         </div>
     </div>
 </div>
+<?php endif; ?>
 <script src="js/scripts.js"></script>
 </body>
 </html>
