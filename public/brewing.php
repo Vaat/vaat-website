@@ -60,7 +60,7 @@ class Auth
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <form class="form-inline" action="/brewing" method="post">
+                <form class="form-inline" action="/brewing.php" method="post">
                     <div class="form-group">
                         <label for="password">Password</label>
                         <input class="form-control" name="password" id="password" type="password"/>
