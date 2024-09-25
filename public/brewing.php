@@ -88,8 +88,9 @@ class Auth
                         </div>
                         <div class="col-lg-12">
                             <h3>Tank 1</h3>
-                            <h4>empty</h4>
+                            <h4>The Coast is Clear</h4>
                             <p class="beer-description">
+                                BD: 20.09.2024
                             </p>
                         </div>
                     </div>
@@ -115,9 +116,9 @@ class Auth
                         </div>
                         <div class="col-lg-12">
                             <h3>Tank 3</h3>
-                            <h4>Fizzy Bee</h4>
+                            <h4>Cherry Dubbel (7Fjell collab)</h4>
                             <p class="beer-description">
-                                BD: 12.06.2024
+                                BD: 24.09.2024
                             </p>
                         </div>
                     </div>
@@ -157,9 +158,8 @@ class Auth
                         </div>
                         <div class="col-lg-12">
                             <h3>Tank 6</h3>
-                            <h4>People Pleasner</h4>
+                            <h4>free</h4>
                             <p class="beer-description">
-                                BD: 22.08.2024
                             </p>
                         </div>
                     </div>
