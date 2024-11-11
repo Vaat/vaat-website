@@ -247,14 +247,16 @@ $selectedImages = array_slice($images, 0, 5);
                 <div class="col-lg-4 beer-wrapper">
                     <div class="row">
                         <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
-                            <img class="can" src="images/happy-endeavours-can-render.webp" alt="Happy Endeavours" />
+                            <img class="can" src="images/witty-nelson-can-render.webp" alt="Witty Nelson" />
                         </div>
                         <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
-                            <h3>Happy Endeavours</h3>
-                            <h4>White Session IPA<br/>alc 4.5% vol</h4>
+                            <h3>Witty Nelson</h3>
+                            <h4>Wit<br/>alc 5.2% vol</h4>
                             <p class="beer-description">
-                                Brewing is ultimately a happy endeavour! With this hoppy wheat beer, we want to celebrate
-                                that fact. This flavourful Session IPA is brewed with El Dorado and dry hopped with Centennial.
+                                Summer in a can. This Belgian-style wheat beer is dry-hopped with Nelson Sauvin,
+                                delivering tropical fruit, white wine aromas, and a hint of spice.
+                                This refreshing twist on a traditional style has been a Vaat classic since our
+                                beginnings and is now brewed fresh in Tallinn, Estonia.
                             </p>
                             <p class="availability">
                                 Available.
@@ -275,7 +277,7 @@ $selectedImages = array_slice($images, 0, 5);
                                 Weʼve been going on about how there are not enough West Coast IPAs, well, here's one!
                             </p>
                             <p class="availability">
-                                Available soon.
+                                Available.
                             </p>
                         </div>
                     </div>
@@ -297,7 +299,25 @@ $selectedImages = array_slice($images, 0, 5);
                                 and wheat have always been first class citizens.
                             </p>
                             <p class="availability">
-                                Available soon.
+                                Available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 beer-wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-5 col-sm-3 col-xs-3">
+                            <img class="can" src="images/happy-endeavours-can-render.webp" alt="Happy Endeavours" />
+                        </div>
+                        <div class="col-lg-12 col-md-7 col-sm-9 col-xs-9">
+                            <h3>Happy Endeavours</h3>
+                            <h4>White Session IPA<br/>alc 4.5% vol</h4>
+                            <p class="beer-description">
+                                Brewing is ultimately a happy endeavour! With this hoppy wheat beer, we want to celebrate
+                                that fact. This flavourful Session IPA is brewed with El Dorado and dry hopped with Centennial.
+                            </p>
+                            <p class="availability">
+                                Available.
                             </p>
                         </div>
                     </div>
@@ -315,7 +335,7 @@ $selectedImages = array_slice($images, 0, 5);
                                 It is fermented with white wine yeast from the Vinho Verde region of Portugal.
                             </p>
                             <p class="availability">
-                                Back in stock soon.
+                                Available.
                             </p>
                         </div>
                     </div>
@@ -424,7 +444,7 @@ $selectedImages = array_slice($images, 0, 5);
                                 characteristics, and the elegant aromas of white wine.
                             </p>
                             <p class="availability">
-                                Partially available. Our good old superstar. It's time for you to be in a can.
+                                Partially available. Our good old superstar is now available in a can!
                             </p>
                         </div>
                     </div>
