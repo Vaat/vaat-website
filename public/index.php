@@ -622,9 +622,9 @@ $selectedImages = array_slice($images, 0, 5);
                 </div>
                 <div class="col-sm-offset-4 col-xs-offset-0"></div>
             </div>
-            <div class="row faces">
+            <div class="row kayak">
                 <div class="col-lg-12">
-                    <img src="images/faces.png" alt="faces" />
+                    <a href='https://www.kayak.co.uk/Tallinn.5753.guide' target='_blank'><img height='150' src='https://www.kayak.co.uk/c/wp-content/uploads/sites/198/2023/09/featuredonkayak-dark.png' /></a>
                 </div>
             </div>
         </div>
