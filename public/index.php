@@ -113,7 +113,7 @@ $selectedImages = array_slice($images, 0, 5);
                 <div class="col-lg-7 col-md-12">
                     <p>
                         <a href="https://taproom.vaat.ee" target="_blank">The Vaat Taproom</a> is located in the heart of Tallinn, in Telliskivi TLN.
-                        We are open from Wednesday to Saturday. Come and enjoy our beers and meads in a cozy atmosphere, take a
+                        We are currently open from Wednesday to Sunday. Come and enjoy our beers and meads in a cozy atmosphere, take a
                         tour of our brewery, participate in a guided tasting, play a board game with friends, or just hang out.
                     </p>
                     <p>For all information regarding our taproom visit <a href="https://taproom.vaat.ee" target="_blank">taproom.vaat.ee</a></p>
@@ -171,7 +171,7 @@ $selectedImages = array_slice($images, 0, 5);
                                 started as an experiment and became a keeper.
                             </p>
                             <p>
-                                Supernova won the <a href="https://awards.untappd.com/assets/awards/5562282.png" target="_blank">Untappd community award</a> for the best pale lager in Estonia in 2023!
+                                Supernova won the <a href="https://awards.untappd.com/assets/awards/5562282.png" target="_blank">Untappd community award</a> for the best pale lager in Estonia in 2023 as well as 2024!
                             </p>
                             <p class="availability">
                                 Available.
@@ -641,11 +641,6 @@ $selectedImages = array_slice($images, 0, 5);
                     <a href="https://instagram.com/vaatbrewery">Instagram</a><br/>
                 </div>
                 <div class="col-sm-offset-4 col-xs-offset-0"></div>
-            </div>
-            <div class="row kayak">
-                <div class="col-lg-12">
-                    <a href='https://www.kayak.co.uk/Tallinn.5753.guide' target='_blank'><img height='150' src='https://www.kayak.co.uk/c/wp-content/uploads/sites/198/2023/09/featuredonkayak-dark.png' /></a>
-                </div>
             </div>
         </div>
         <div class="col-md-1 offset-md-1 d-none d-md-block">
