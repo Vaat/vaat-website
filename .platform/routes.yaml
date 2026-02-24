@@ -34,4 +34,4 @@ http://{default}/:
 
 "https://taproom.{default}/":
     type: redirect
-    to: 'https://{default}/taproom'
+    to: 'https://{default}/'
