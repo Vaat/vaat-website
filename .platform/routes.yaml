@@ -31,3 +31,7 @@ http://{default}/:
 "https://www.vaat.ch/":
     type: redirect
     to: "https://vaat.ch/"
+
+"https://taproom.{default}/":
+    type: redirect
+    to: 'https://{default}/taproom'

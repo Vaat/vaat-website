@@ -105,53 +105,6 @@ $selectedImages = array_slice($images, 0, 5);
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Our Taproom & Community</h2>
-                    <hr/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-7 col-md-12">
-                    <p>
-                        <a href="https://taproom.vaat.ee" target="_blank">The Vaat Taproom</a> is located in the heart of Tallinn, in Telliskivi TLN.
-                        We are currently open from Wednesday to Sunday. Come and enjoy our beers and meads in a cozy atmosphere, take a
-                        tour of our brewery, participate in a guided tasting, play a board game with friends, or just hang out.
-                    </p>
-                    <p>For all information regarding our taproom visit <a href="https://taproom.vaat.ee" target="_blank">taproom.vaat.ee</a></p>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-4">
-                    <a href="https://taproom.vaat.ee" target="_blank"><img src="images/header-taproom.jpg" width="100%" alt="Vaat Taproom" /></a>
-                </div>
-            </div>
-            <div class="row faces-section">
-                <div class="col-lg-4 col-md-12 faces-text">
-                    <h3>Faces of Vaat</h3>
-                    <p>
-                        <strong>Our community</strong> is the most important part of our adventure.
-                        It's what makes it all worth it.
-                    </p>
-                    <p>
-                        Check out the growing number of beautiful Faces of Vaat,
-                        a photography project by <a href="https://annameurer.com/" target="_blank">Anna Meurer</a>.
-                    </p>
-                </div>
-                <div class="col-lg-8 faces-images">
-                    <div class="row">
-                        <div class="col-12">
-                            <?php foreach ($selectedImages as $image): ?>
-                            <img src="<?= $image ?>" alt="faces of our community" class="img-fluid face-img">
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <br/>
-                            <a href="faces-of-vaat">See more faces</a>
-                        </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
                     <h2>Our beers & meads</h2>
                     <hr/>
                 </div>
